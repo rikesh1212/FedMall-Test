@@ -74,12 +74,11 @@ def file_conversion(input_file, output_file_pattern, chunksize):
         # ignore headers of input files
         for i in range(1):
             fin.__next__()
-        reader = csv.DictReader(fin, delimiter=',')
-
+        reader = csv.reader(fin, delimiter=',')
         for i, chunk in enumerate(chunked(reader, chunksize)):
             with open(output_file_pattern.format(i), 'w', newline='') as fout:
-                writer = csv.DictWriter(fout,reader.fieldnames ,delimiter='^')
-                writer.writeheader()
+                writer = csv.writer(fout,reader,delimiter='^')
+                writer.writerow(fed_headers)
                 writer.writerows(chunk)
                 print("Successfully converted into", output_file_pattern)
 
