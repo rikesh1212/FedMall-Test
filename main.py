@@ -1,3 +1,4 @@
+import os
 import csv
 from more_itertools import chunked
 
@@ -70,6 +71,7 @@ print("Contract Number:",cn)
 
 
 def file_conversion(input_file, output_file_pattern, chunksize):
+
     with open(input_file,"r+") as fin:
         # ignore headers of input files
         for i in range(1):
@@ -89,9 +91,15 @@ def total_lines(input_file):
     with open(input_file) as f:
         return sum(1 for line in f)
 
-
+script_dir = os.path.dirname(os.path.abspath(__file__))
+dest_dir = os.path.join(script_dir, 'temp')
+try:
+    os.makedirs(dest_dir)
+except OSError:
+    pass
+path = os.path.join(dest_dir,cn+'{:06}.csv' )
 print("Total Number of lines:",total_lines(input_file))
-file_conversion(input_file,cn+'{:06}.csv',10000)
+file_conversion(input_file,path,10000)
 
 
 
