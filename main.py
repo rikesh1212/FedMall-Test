@@ -52,7 +52,8 @@ print("Contract Number:",cn)
 
 
 df = pd.read_csv(input_file, delimiter = ',')
-final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
+final_df = df.reindex(['CONTNUM','MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','NSN','MFGNAME','PRODDESC','ARO','PRODDESC','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','EPI','EPJC','ESI','ESJC','USAI','USJC','CI'],axis=1)
+# final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
 final_df.to_csv(cc+'.csv',index = False)
 
 path0 = cc+'.csv'
