@@ -52,11 +52,29 @@ print("Contract Number:",cn)
 
 
 df = pd.read_csv(input_file, delimiter = ',')
-final_df = df.reindex(['CONTNUM','MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','NSN','MFGNAME','PRODDESC','ARO','PRODDESC','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','EPI','EPJC','ESI','ESJC','USAI','USJC','CI'],axis=1)
-# final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
-final_df.to_csv(cc+'.csv',index = False)
+final_df = df.reindex(['CONTNUM','MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','PRODDESC','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','EPI','EPJC','ESI','ESJC','USAI','USJC','CI'],axis=1)
+final_df.loc[final_df['UPC'].astype(str).str.len() >12, 'UPC']= ''
+final_df.loc[final_df['TEMPRICE'] == 0,'TEMPRICE']=''
+final_df['QTY_UNIT'] = final_df['QTY_UNIT'].fillna('0')
+final_df['QTY_UNIT'] = final_df['QTY_UNIT'].astype(int)
+final_df['MFGPART'] = final_df['MFGPART'].str.replace('+','-PLUS')
+final_df['MFGPART'] = final_df['MFGPART'].str.replace('/','-SLASH-')
+final_df['MFGPART'] = final_df['MFGPART'].str.replace('\\','-SLASH-')
+final_df['MFGPART'] = final_df['MFGPART'].str.replace(' ','-')
+final_df['MFGPART'] = final_df['MFGPART'].str.replace('_','-')
+final_df['MFGPART'] = final_df['MFGPART'].str.replace('.','-')
 
-path0 = cc+'.csv'
+# final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
+
+script_dir0 = os.path.dirname(os.path.abspath(__file__))
+dest0 = os.path.join(script_dir0, 'excess')
+try:
+    os.makedirs(dest0)
+except OSError:
+    pass
+path0 = os.path.join(dest0,cc+'.csv' )
+final_df.to_csv(path0,index = False)
+# path0 = cc+'.csv'
 
 # file conversion from input file to output file
 
