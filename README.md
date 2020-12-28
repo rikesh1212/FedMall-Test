@@ -1,7 +1,8 @@
 # FedMall-Test
-Please install the module: more_itertools using:
+Please install the module: more_itertools and pandas using:
 ```
 pip install more_itertools
+pip install pandas
 
 ```
 
