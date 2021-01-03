@@ -51,18 +51,164 @@ print("Cage Code:",cc)
 print("Contract Number:",cn)
 
 
-df = pd.read_csv(input_file, delimiter = ',')
-final_df = df.reindex(['CONTNUM','MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','PRODDESC','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','EPI','EPJC','ESI','ESJC','USAI','USJC','CI'],axis=1)
+data = pd.read_csv(input_file, delimiter = ',',encoding= 'unicode_escape')
+
+# final_df = df.reindex(['CONTNUM','MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','PRODDESC','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','EPI','EPJC','ESI','ESJC','USAI','USJC','CI'],axis=1)
+def mapping(df):
+    for column_name, column in df.transpose().iterrows():
+        df = df.rename(columns={'PART_NUMBER': 'VENDPART', 'PART_NAME':'PRODNAME', 'PSC':'PSC_CODE',
+                           'Contract Price with IFF': 'GSAPRICE','UNIT_OF_ISSUE':'ISSCODE','ITEMS_PER_UOI':'QTY_UNIT',
+                           'OEM_NUMBER':'MFGPART','OEM_CAGE':'OEM_CAGE','OEM_NAME':'MFGNAME','DESCRIPTION':'PRODDESC',
+                           'DAYS_ARO':'P_DELIV','UPC':'UPC','HAZMAT':'HAZMAT','TPRSTART':'TPRSTART','TPRSTOP':'TPRSTOP',
+                           'TEMPRICE':'TEMPRICE', 'SHIPPING_STANDARD':'SHIPPING','SHIPPING_EXPEDITED':'SHIPPING_EXPEDITED',
+                           'SHIPPING_NEXTDAY':'SHIPPING_NEXTDAY',
+                           'Environmentally Preferred Indicator': 'Environmentally Preferred Indicator',
+                           'Environmentally Preferred Justifying Comment':'Environmentally Preferred Justifying Comment',
+                           'Energy Star Indicator': 'Energy Star Indicator',
+                           'Energy Star Justifying Comment':'Energy Star Justifying Comment',
+                           'Made in the USA Indicator':'Made in the USA Indicator',
+                           'Made in the USA Justifying Comment':'Made in the USA Justifying Comment',
+                           'Characteristic Information':'Characteristic Information'})
+        df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODNAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'Contract  Price with IFF': 'GSAPRICE', 'UNIT OF ISSUE': 'ISSCODE',
+                           'Quantity per Unit of Issue': 'QTY_UNIT',
+                           'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'OEM NAME': 'MFGNAME',
+                           'PRODESC': 'PRODDESC',
+                           'ARO': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'TPRSTOP': 'TPRSTOP',
+                           'TEMPRICE': 'TEMPRICE', 'SHIPPING_STANDARD': 'SHIPPING',
+                           'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
+                           'SHIPPING_NEXTDAY': 'SHIPPING_NEXTDAY',
+                           'Environmentally Preferred Indicator': 'Environmentally Preferred Indicator',
+                           'Environmentally Preferred Justifying Comment': 'Environmentally Preferred Justifying Comment',
+                           'Energy Star Indicator': 'Energy Star Indicator',
+                           'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
+                           'Made in the USA Indicator': 'Made in the USA Indicator',
+                           'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'Contractor PN': 'VENDPART', 'PRODUCT_NAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'CONTRACT PRICE WITH IFF': 'GSAPRICE', 'Unit of Issue': 'ISSCODE',
+                           'Quantity per Unit of Issue': 'QTY_UNIT',
+                           'OEM NUMBER': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'OEM NAME': 'MFGNAME',
+                           'Product Description': 'PRODDESC',
+                           'LEAD TIME DAYS': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'TPRSTOP': 'TPRSTOP',
+                           'TEMPRICE': 'TEMPRICE', 'SHIPPING_STANDARD': 'SHIPPING',
+                           'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
+                           'SHIPPING_NEXTDAY': 'SHIPPING_NEXTDAY',
+                           'Environmentally Preferred Indicator': 'Environmentally Preferred Indicator',
+                           'Environmentally Preferred Justifying Comment': 'Environmentally Preferred Justifying Comment',
+                           'Energy Star Indicator': 'Energy Star Indicator',
+                           'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
+                           'Made in the USA Indicator': 'Made in the USA Indicator',
+                           'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'Contractor Part Number': 'VENDPART', 'Product Name': 'PRODNAME', 'PSC': 'PSC_CODE',
+                           'PRICE': 'GSAPRICE', 'ISSCODE': 'ISSCODE',
+                           'QTY_UNIT': 'QTY_UNIT',
+                           'MANUFACTURER PART NUMBER': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER': 'MFGNAME',
+                           'PRODUCT DESCRIPTION': 'PRODDESC',
+                           'P_DELIV': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'TPRSTOP': 'TPRSTOP',
+                           'TEMPRICE': 'TEMPRICE', 'SHIPPING_STANDARD': 'SHIPPING',
+                           'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
+                           'SHIPPING_NEXTDAY': 'SHIPPING_NEXTDAY',
+                           'Environmentally Preferred Indicator': 'Environmentally Preferred Indicator',
+                           'Environmentally Preferred Justifying Comment': 'Environmentally Preferred Justifying Comment',
+                           'Energy Star Indicator': 'Energy Star Indicator',
+                           'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
+                           'Made in the USA Indicator': 'Made in the USA Indicator',
+                           'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODUCT NAME/DESCRIPTION': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'Price': 'GSAPRICE', 'UOM': 'ISSCODE',
+                           'QTY_UNIT': 'QTY_UNIT',
+                           'Manufacturer Part #': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER NAME': 'MFGNAME',
+                           'PRODDESC': 'PRODDESC',
+                           'Lead Time Days': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'TPRSTOP': 'TPRSTOP',
+                           'TEMPRICE': 'TEMPRICE', 'SHIPPING': 'SHIPPING',
+                           'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
+                           'SHIPPING_NEXTDAY': 'SHIPPING_NEXTDAY',
+                           'Environmentally Preferred Indicator': 'Environmentally Preferred Indicator',
+                           'Environmentally Preferred Justifying Comment': 'Environmentally Preferred Justifying Comment',
+                           'Energy Star Indicator': 'Energy Star Indicator',
+                           'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
+                           'Made in the USA Indicator': 'Made in the USA Indicator',
+                           'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODNAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'GSAPRICE': 'GSAPRICE', 'ISSCODE': 'ISSCODE',
+                           'QTY_UNIT': 'QTY_UNIT',
+                           'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'Manufacturer Name': 'MFGNAME',
+                           'PRODDESC': 'PRODDESC',
+                           'Lead Time Days': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'TPRSTOP': 'TPRSTOP',
+                           'TEMPRICE': 'TEMPRICE', 'SHIPPING': 'SHIPPING',
+                           'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
+                           'SHIPPING_NEXTDAY': 'SHIPPING_NEXTDAY',
+                           'Environmentally Preferred Indicator': 'Environmentally Preferred Indicator',
+                           'Environmentally Preferred Justifying Comment': 'Environmentally Preferred Justifying Comment',
+                           'Energy Star Indicator': 'Energy Star Indicator',
+                           'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
+                           'Made in the USA Indicator': 'Made in the USA Indicator',
+                           'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODNAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'Contract Price': 'GSAPRICE', 'ISSCODE': 'ISSCODE',
+                           'QTY_UNIT': 'QTY_UNIT',
+                           'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER OR BRAND NAME': 'MFGNAME',
+                           'PRODDESC': 'PRODDESC',
+                           'Lead Time Days': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'TPRSTOP': 'TPRSTOP',
+                           'TEMPRICE': 'TEMPRICE', 'SHIPPING': 'SHIPPING',
+                           'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
+                           'SHIPPING_NEXTDAY': 'SHIPPING_NEXTDAY',
+                           'Environmentally Preferred Indicator': 'Environmentally Preferred Indicator',
+                           'Environmentally Preferred Justifying Comment': 'Environmentally Preferred Justifying Comment',
+                           'Energy Star Indicator': 'Energy Star Indicator',
+                           'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
+                           'Made in the USA Indicator': 'Made in the USA Indicator',
+                           'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODUCT NAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'CONTRACT PRICE': 'GSAPRICE', 'ISSCODE': 'ISSCODE',
+                           'QTY_UNIT': 'QTY_UNIT',
+                           'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER OR BRAND NAME': 'MFGNAME',
+                           'PRODDESC': 'PRODDESC',
+                           'Lead Time Days': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'TPRSTOP': 'TPRSTOP',
+                           'TEMPRICE': 'TEMPRICE', 'SHIPPING': 'SHIPPING',
+                           'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
+                           'SHIPPING_NEXTDAY': 'SHIPPING_NEXTDAY',
+                           'Environmentally Preferred Indicator': 'Environmentally Preferred Indicator',
+                           'Environmentally Preferred Justifying Comment': 'Environmentally Preferred Justifying Comment',
+                           'Energy Star Indicator': 'Energy Star Indicator',
+                           'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
+                           'Made in the USA Indicator': 'Made in the USA Indicator',
+                           'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
+                           'Characteristic Information': 'Characteristic Information'})
+    return df
+
+
+
+
+
+        # df.rename(columns={'alias': 'FNAME', 'contact': 'EMAIL'}, inplace=True)
+        # df.rename(columns={'initial name': 'FNAME', 'emailid': 'EMAIL'}, inplace=True)
+final_df = mapping(data)
+
+
 final_df.loc[final_df['UPC'].astype(str).str.len() >12, 'UPC']= ''
 final_df.loc[final_df['TEMPRICE'] == 0,'TEMPRICE']=''
 final_df['QTY_UNIT'] = final_df['QTY_UNIT'].fillna('0')
 final_df['QTY_UNIT'] = final_df['QTY_UNIT'].astype(int)
-final_df['MFGPART'] = final_df['MFGPART'].str.replace('+','-PLUS')
-final_df['MFGPART'] = final_df['MFGPART'].str.replace('/','-SLASH-')
-final_df['MFGPART'] = final_df['MFGPART'].str.replace('\\','-SLASH-')
-final_df['MFGPART'] = final_df['MFGPART'].str.replace(' ','-')
-final_df['MFGPART'] = final_df['MFGPART'].str.replace('_','-')
-final_df['MFGPART'] = final_df['MFGPART'].str.replace('.','-')
+final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('+','-PLUS')
+final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('/','-SLASH-')
+final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('\\','-SLASH-')
+final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace(' ','-')
+final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('_','-')
+final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('.','-')
 
 # final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
 
@@ -100,7 +246,7 @@ final_df.to_csv(path0,index = False)
 #                 writer.writerows(chunk)
 #                 print("Successfully converted into", output_file_pattern)
 
-def add_column_in_csv(input_file, output_file, transform_row,transform_row1):
+def add_column_in_csv(input_file, output_file, transform_row,transform_row1,transform_row2):
     with open(input_file, 'r') as read_obj, \
             open(output_file, 'w', newline='') as write_obj:
         reader = csv.reader(read_obj,delimiter=',')
@@ -109,6 +255,7 @@ def add_column_in_csv(input_file, output_file, transform_row,transform_row1):
 
             transform_row(row,reader.line_num)
             transform_row1(row,reader.line_num)
+            transform_row2(row,reader.line_num)
             writer.writerow(row)
         # writer.writerows([map,(operator.itemgetter(0,1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30),reader)])
 script_dir1 = os.path.dirname(os.path.abspath(__file__))
@@ -118,7 +265,7 @@ try:
 except OSError:
     pass
 path1 = os.path.join(dest,cn+'.csv' )
-add_column_in_csv(path0,path1, lambda row, line_num: row.insert(0, act),lambda row, line_num: row.insert(1,cc))
+add_column_in_csv(path0,path1, lambda row, line_num: row.insert(0, act),lambda row, line_num: row.insert(1,cc),lambda row, line_num: row.insert(2,cn))
 # add_column_in_csv(input_file,cn+'{:06}.csv', lambda row, line_num: row.insert(1, cc))
 # add_column_in_csv(input_file,cn+'{:06}.csv', lambda row, line_num: row.insert(2, cn))
 #
@@ -151,9 +298,9 @@ def file_conversion(input_file, output_file_pattern, chunksize, act,cc,cn):
 # count total number of lines
 #
 #
-def total_lines(input_file):
-    with open(input_file) as f:
-        return sum(1 for line in f)
+# def total_lines(input_file):
+#     with open(input_file) as f:
+#         return sum(1 for line in f)
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 dest_dir = os.path.join(script_dir, 'temp')
@@ -163,7 +310,7 @@ except OSError:
     pass
 path = os.path.join(dest_dir,cn+'{:06}.csv' )
 
-print("Total Number of lines:",total_lines(input_file))
+# pyth
 file_conversion(path1,path,10000,act,cc,cn)
 
 #
