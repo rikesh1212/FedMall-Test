@@ -17,7 +17,7 @@
 
 def mapping(df):
     for column_name, column in df.transpose().iterrows():
-        df.rename(columns={'PART_NUMBER': 'VENDPART', 'PART_NAME':'PRODNAME', 'PSC':'PSC_CODE',
+        df = df.rename(columns={'PART_NUMBER': 'VENDPART', 'PART_NAME':'PRODNAME', 'PSC':'PSC_CODE',
                            'Contract Price with IFF': 'GSAPRICE','UNIT_OF_ISSUE':'ISSCODE','ITEMS_PER_UOI':'QTY_UNIT',
                            'OEM_NUMBER':'MFGPART','OEM_CAGE':'OEM_CAGE','OEM_NAME':'MFGNAME','DESCRIPTION':'PRODDESC',
                            'DAYS_ARO':'P_DELIV','UPC':'UPC','HAZMAT':'HAZMAT','TPRSTART':'TPRSTART','TPRSTOP':'TPRSTOP',
@@ -29,8 +29,8 @@ def mapping(df):
                            'Energy Star Justifying Comment':'Energy Star Justifying Comment',
                            'Made in the USA Indicator':'Made in the USA Indicator',
                            'Made in the USA Justifying Comment':'Made in the USA Justifying Comment',
-                           'Characteristic Information':'Characteristic Information'}, inplace=True)
-        df.rename(columns={'VENDPART': 'VENDPART', 'PRODNAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'Characteristic Information':'Characteristic Information'})
+        df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODNAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
                            'Contract  Price with IFF': 'GSAPRICE', 'UNIT OF ISSUE': 'ISSCODE',
                            'Quantity per Unit of Issue': 'QTY_UNIT',
                            'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'OEM NAME': 'MFGNAME',
@@ -46,8 +46,8 @@ def mapping(df):
                            'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
                            'Made in the USA Indicator': 'Made in the USA Indicator',
                            'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
-                           'Characteristic Information': 'Characteristic Information'}, inplace=True)
-        df.rename(columns={'Contractor PN': 'VENDPART', 'PRODUCT_NAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'Contractor PN': 'VENDPART', 'PRODUCT_NAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
                            'CONTRACT PRICE WITH IFF': 'GSAPRICE', 'Unit of Issue': 'ISSCODE',
                            'Quantity per Unit of Issue': 'QTY_UNIT',
                            'OEM NUMBER': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'OEM NAME': 'MFGNAME',
@@ -63,8 +63,8 @@ def mapping(df):
                            'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
                            'Made in the USA Indicator': 'Made in the USA Indicator',
                            'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
-                           'Characteristic Information': 'Characteristic Information'}, inplace=True)
-        df.rename(columns={'Contractor Part Number': 'VENDPART', 'Product Name': 'PRODNAME', 'PSC': 'PSC_CODE',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'Contractor Part Number': 'VENDPART', 'Product Name': 'PRODNAME', 'PSC': 'PSC_CODE',
                            'PRICE': 'GSAPRICE', 'ISSCODE': 'ISSCODE',
                            'QTY_UNIT': 'QTY_UNIT',
                            'MANUFACTURER PART NUMBER': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER': 'MFGNAME',
@@ -80,8 +80,8 @@ def mapping(df):
                            'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
                            'Made in the USA Indicator': 'Made in the USA Indicator',
                            'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
-                           'Characteristic Information': 'Characteristic Information'}, inplace=True)
-        df.rename(columns={'VENDPART': 'VENDPART', 'PRODUCT NAME/DESCRIPTION': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODUCT NAME/DESCRIPTION': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
                            'Price': 'GSAPRICE', 'UOM': 'ISSCODE',
                            'QTY_UNIT': 'QTY_UNIT',
                            'Manufacturer Part #': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER NAME': 'MFGNAME',
@@ -97,8 +97,8 @@ def mapping(df):
                            'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
                            'Made in the USA Indicator': 'Made in the USA Indicator',
                            'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
-                           'Characteristic Information': 'Characteristic Information'}, inplace=True)
-        df.rename(columns={'VENDPART': 'VENDPART', 'PRODNAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODNAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
                            'GSAPRICE': 'GSAPRICE', 'ISSCODE': 'ISSCODE',
                            'QTY_UNIT': 'QTY_UNIT',
                            'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'Manufacturer Name': 'MFGNAME',
@@ -114,8 +114,8 @@ def mapping(df):
                            'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
                            'Made in the USA Indicator': 'Made in the USA Indicator',
                            'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
-                           'Characteristic Information': 'Characteristic Information'}, inplace=True)
-        df.rename(columns={'VENDPART': 'VENDPART', 'PRODNAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODNAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
                            'Contract Price': 'GSAPRICE', 'ISSCODE': 'ISSCODE',
                            'QTY_UNIT': 'QTY_UNIT',
                            'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER OR BRAND NAME': 'MFGNAME',
@@ -131,8 +131,8 @@ def mapping(df):
                            'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
                            'Made in the USA Indicator': 'Made in the USA Indicator',
                            'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
-                           'Characteristic Information': 'Characteristic Information'}, inplace=True)
-        df.rename(columns={'VENDPART': 'VENDPART', 'PRODUCT NAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
+                           'Characteristic Information': 'Characteristic Information'})
+        df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODUCT NAME': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
                            'CONTRACT PRICE': 'GSAPRICE', 'ISSCODE': 'ISSCODE',
                            'QTY_UNIT': 'QTY_UNIT',
                            'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER OR BRAND NAME': 'MFGNAME',
@@ -148,7 +148,9 @@ def mapping(df):
                            'Energy Star Justifying Comment': 'Energy Star Justifying Comment',
                            'Made in the USA Indicator': 'Made in the USA Indicator',
                            'Made in the USA Justifying Comment': 'Made in the USA Justifying Comment',
-                           'Characteristic Information': 'Characteristic Information'}, inplace=True)
+                           'Characteristic Information': 'Characteristic Information'})
+
+    return df
 
 
 

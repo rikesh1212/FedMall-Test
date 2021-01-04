@@ -196,7 +196,8 @@ def mapping(df):
 
         # df.rename(columns={'alias': 'FNAME', 'contact': 'EMAIL'}, inplace=True)
         # df.rename(columns={'initial name': 'FNAME', 'emailid': 'EMAIL'}, inplace=True)
-final_df = mapping(data)
+initial_df = mapping(data)
+final_df = initial_df.reindex(['MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','PRODDESC','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','Environmentally Preferred Indicator','Environmentally Preferred Justifying Comment','Energy Star Indicator','Energy Star Justifying Comment','Made in the USA Indicator','Made in the USA Justifying Comment','Characteristic Information'],axis=1)
 
 
 final_df.loc[final_df['UPC'].astype(str).str.len() >12, 'UPC']= ''
@@ -206,12 +207,18 @@ final_df['QTY_UNIT'] = final_df['QTY_UNIT'].astype(int)
 final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('+','-PLUS')
 final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('/','-SLASH-')
 final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('\\','-SLASH-')
+
 final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace(' ','-')
 final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('_','-')
 final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('.','-')
+final_df['PSC_CODE'] = final_df['PSC_CODE'].astype(str).str.replace('','0')
+final_df['GSAPRICE'] = final_df['GSAPRICE'].round(2)
+final_df['GSAPRICE'] = final_df['GSAPRICE'].astype(str).str.replace('$','')
+final_df['GSAPRICE'] = final_df['GSAPRICE'].astype(str).str.replace(',','')
 
-# final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
-
+#
+# # final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
+#
 script_dir0 = os.path.dirname(os.path.abspath(__file__))
 dest0 = os.path.join(script_dir0, 'excess')
 try:
@@ -313,5 +320,5 @@ path = os.path.join(dest_dir,cn+'{:06}.csv' )
 # pyth
 file_conversion(path1,path,10000,act,cc,cn)
 
-#
-#
+
+
