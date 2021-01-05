@@ -1,0 +1,2194 @@
+SINTEMP,SIN Title,PSC_CODE,SIN
+382 1,TRANSLATION SERVICES -,R608,3821
+382 2,INTERPRETATION SERVICES -,R608,3822
+382 3,TRAINING AND EDUCATIONAL MATERIALS -,R608,3823
+382 4,COMPREHENSIVE LINGUISTIC ANALYTICAL SUPPORT SERVICES (CLASS),R608,3824
+382 5,Services for the Visual and Hearing Impaired -,R608,3825
+382 6,Ancillary Supplies and/or Services -,7010,3826
+382 99,Introduction of New Services -,7010,38299
+520 1,Program Financial Advisor -,R704,5201
+520 10,Transportation Audits -,R704,52010
+520 11,Accounting -,R703,52011
+520 12,Budgeting -,R704,52012
+520 13,Complementary Financial Management Services -,R704,52013
+520 14,Audit & Financial Training Services,R704,52014
+520 15,Outsourcing Recurring Commercial Activities for Financial Management Services -,R704,52015
+520 16,Business Information Services -,R704,52016
+520 17,Risk Assessment and Mitigation Services -,R704,52017
+520 18,Independent Risk Analysis -,R704,52018
+520 19,Data Breach Analysis -,R704,52019
+520 2,Transaction Specialist -,R704,5202
+520 20,Comprehensive Protection Solutions -,R704,52020
+520 21,Program Management Services -,R704,52021
+520 22,Grants Management Support Services -,R703,52022
+520 3,Due Diligence & Support Services -,R710,5203
+520 4,Debt Collection -,R705,5204
+520 5,Loan Servicing & Asset Management -,R704,5205
+520 6,Professional Legal Services -,R704,5206
+520 7,Financial & Performance Audits -,R704,5207
+520 8,Complementary Audit Services -,R704,5208
+520 9,Recovery Audits -,R704,5209
+541 1,Advertising Services -,R701,5411
+541 1000,Other Direct Costs (ODCs) are expenses other than labor hours -,R701,5411000
+541 2,Public Relations Services -,R708,5412
+541 3,Web Based Marketing Services -,D304,5413
+541 4A,Market Research and Analysis -,R422,5414A
+541 4B,Video / Film Production -,T006,5414B
+541 4C,Exhibit Design and Implementation Services -,Y1PB,5414C
+541 4D,"Conference, Events and Tradeshow Planning Services -",R499,5414D
+541 4E,Commercial Photography Services -,T010,5414E
+541 4F,Commercial Art and Graphic Design Services -,R499,5414F
+541 4G,Challenges and Competitions Services -,R701,5414G
+541 5,Integrated Marketing Services -,R701,5415
+541 99,Introduction of New Services -,R701,54199
+871 1,Strategic Planning for Technology Programs/Activities -,R425,8711
+871 2,Concept Development and Requirements Analysis -,R425,8712
+871 3,"System Design, Engineering and Integration -",R425,8713
+871 4,Test and Evaluation -,R425,8714
+871 5,Integrated Logistics Support -,R425,8715
+871 6,Acquisition and Life Cycle Management -,R425,8716
+871 7,Construction Management and Engineering Consulting Services Related to Real Property -,R425,8717
+871 8,Ancillary Supplies and/or Services -,R425,8718
+874 1,Integrated Consulting Services -,R499,8741
+874 4,"Training Services:Instructor Led Training, Web Based Training and Education Courses, Course Development and Test Administration, Learning Management, Internships -",U006,8744
+874 5,Ancillary Supplies and/or Services -,U009,8745
+874 501,Supply and Value Chain Management -,R706,874501
+874 503,Distribution and Transportation Logistics Services -,R706,874503
+874 504,Deployment Logistics -,R706,874504
+874 505,Logistics Training Services -,R706,874505
+874 506,Ancillary Supplies and/or Services -,R706,874506
+874 507,Operations & Maintenance Logistics Management and Support Services -,R706,874507
+874 597,Ancillary Repair and Alterations -,R706,874597
+874 599,Introduction of New Service -,R706,874599
+874 6,Acquisition Management Support -,R707,8746
+874 7,Integrated Business Program Support Services -,R499,8747
+874 8,DAU and FAI Certified DAWIA and FAC Acquisition Workforce Training for GS-1102 and non-1102 Personnel Training for Acquisition Workforce (GS-1102 and non-GS-1102) -,U009,8748
+874 9,"Off-the-Shelf Training Devices and Training Materials:  Print, Electronic, Audio-Visual, Multi-Media, and Simulation Training Devices",6910,8749
+874 99,Introduction of New Services -,R499,87499
+899 1,Environmental Consulting Services -,F999,8991
+899 10,Ancillary Supplies and/or Services -,F999,89910
+899 3,Environmental Training Services -,F999,8993
+899 5,Materials and Waste Recycling and Disposal Services -,F999,8995
+899 7,Geographic Information Systems (GIS) Services -,F999,8997
+899 8,Remediation and Reclamation Services -,F999,8998
+899 99,Introduction of New Services -,F999,89999
+C100 01,Introduction of New Services -,R499,C10001
+C100 03,Ancillary Supplies and/or Services -,R499,C10003
+C132 51,Information Technology Professional Services   SUBJECT TO COOPERATIVE PURCHASING,D399,C13251
+C382 1,TRANSLATION SERVICES -,R608,C3821
+C382 2,Intrepretation Services -,R608,C3822
+C382 3,Training and Educational Materials -,R608,C3823
+C382 4,Comprehensive Linguistic Analytical Support Services -,R608,C3824
+C382 5,Services for the Visual and Hearing Impaired -,R608,C3825
+C520 1,Program Financial Advisor -,R704,C5201
+C520 10,Transportation Audits -,R704,C52010
+C520 11,Accounting -,R703,C52011
+C520 12,Budgeting -,R704,C52012
+C520 13,Complementary Financial Management Services -,R704,C52013
+C520 14,Audit & Financial Training Services  -,R704,C52014
+C520 15,Outsourcing Recurring Commercial Activities for Financial Management Services -,R704,C52015
+C520 16,Business Information Services -,R704,C52016
+C520 17,Risk Assessment and Mitigation Services -,R704,C52017
+C520 18,Independent Risk Analysis -,R704,C52018
+C520 19,Data Breach Analysis -,R704,C52019
+C520 2,Transaction Specialist -,R704,C5202
+C520 20,Comprehensive Protection Solutions -,R704,C52020
+C520 21,Program Management Services -,R704,C52021
+C520 22,Grants Management Support Services -,R703,C52022
+C520 3,Due Diligence and Support Services -,R710,C5203
+C520 4,Debt Collection -,R705,C5204
+C520 5,Loan Servicing & Asset Management,R704,C5205
+C520 6,Professional Legal Services -,R704,C5206
+C520 7,Financial & Performance Audits,R704,C5207
+C520 8,Complementary Audit Services -,R704,C5208
+C520 9,Recovery Audits,R704,C5209
+C541 1,Advertising Services -,R701,C5411
+C541 1000,Other Direct Costs (ODCs) are expenses other than labor hours -,R701,C5411000
+C541 2,Public Relations Services -,R708,C5412
+C541 3,Web Based Marketing Services  -,D304,C5413
+C541 4A,Market Research and Analysis -,R422,C5414A
+C541 4B,Video/Film Production -,T006,C5414B
+C541 4C,Exhibit Design and Implementation Services -,Y1PB,C5414C
+C541 4D,"Conference, Events and Tradeshow Planning Services -",R499,C5414D
+C541 4E,Commercial Photography Services -,T010,C5414E
+C541 4F,Commercial Art and Graphic Design Services  -,R499,C5414F
+C541 4G,Challenges and Competition Services -,R701,C5414G
+C541 5,Integrated Marketing Services -,R701,C5415
+C595 21,HUMAN RESOURCE SERVICES (Excluding EEO Services) -,R799,C59521
+C871 1,Strategic Planning for Technology Programs/Activities -,R425,C8711
+C871 2,Concept Development and Requirements Analysis -,R425,C8712
+C871 202,Energy Management Planning and Strategies -,R425,C871202
+C871 207,Energy Audit Services -,R425,C871207
+C871 208,Resource Efficiency Management (REM) -,R425,C871208
+C871 211,Energy Consulting Services -,R425,C871211
+C871 3,"System Design, Engineering and Integration -",R425,C8713
+C871 4,Test and Evaluation Services -,R425,C8714
+C871 5,Integrated Logistics Support  Services -,R425,C8715
+C871 6,Acquisition and Life Cycle Management Services -,R425,C8716
+C871 7,Construction Management and Engineering Consulting Services Related to Real Property -,R425,C8717
+C874 1,Integrated Consulting Services -,R499,C8741
+C874 4,"Training Services: Instructor Led Training, Web Based Training Web Based Training and Education Courses, Course Development and Test Administration, Learning Management, Internships -",U006,C8744
+C874 501,Supply and Value Chain Management -,R706,C874501
+C874 503,Distribution and Transportation Logistics Services -,R706,C874503
+C874 504,Deployment Logistics Services -,R706,C874504
+C874 505,Logistics Training Services -,R706,C874505
+C874 507,Operations & Maintenance Logistics Management and Support Services -,R706,C874507
+C874 597,Ancillary Repair and Alterations -,R706,C874597
+C874 6,Acquisition Management Support -,R707,C8746
+C874 7,Integrated Business Program Support Services -,R499,C8747
+C874 8,DAU and FAI Certified DAWIA and FAC Acquisition Workforce Training for GS-1102 and non-1102 Personnel Training for Acquisition Workforce (GS-1102 and non-GS-1102) -,U009,C8748
+C874 9,"Off-the-Shelf Training Devices and Training Materials:  Print, Electronic, Audio-Visual, Multi-Media, and Simulation Training Devices -",6910,C8749
+C899 1,Environmental Consulting Services -,F999,C8991
+C899 3,Environmental Training Services -,F999,C8993
+C899 5,Materials and Waste Recycling and Disposal Services -,F999,C8995
+C899 7,Geographic Information Systems (GIS) Services -,F999,C8997
+C899 8,Remediation and Reclamation Services -,F999,C8998
+SIN,SIN Title,PSC ,SIN
+003 01,Smart Buildings Systems Integrator,J035,00301
+003 100,Ancillary Supplies and/or Services -,J035,003100
+003 97,Ancillary Repair and Alterations,J035,00397
+371 001,Grounds and/or Cemetery Maintenance,S208,371001
+371 002,Tree Planting/Trimming/Removal,S208,371002
+371 003,Pest Control,S207,371003
+541 001,Independent Elevator Inspection Services,H335,541001
+541 099,Introduction of New Services,H335,541099
+561 001,Fire Alarm System Preventative Maintenance and Repair Services,J035,561001
+561 002,Water Based Fire Suppression System Preventative Maintenance and Repair Services,J035,561002
+801 001,Surface Preparation and/or Application of Chemical Compounds,J025,801001
+801 099,Introduction of New Services,J025,801099
+811 001,Elevator and Escalator Preventative Maintenance,J035,811001
+811 002,Complete Facilities Maintenance,S216,811002
+811 003,Complete Facilities Management,J035,811003
+811 004,Maintenance of Utility Systems,J035,811004
+811 005,"Refrigeration, Heating, Ventilation, Air Conditioner, Boiler and Chiller HVAC Maintenance",J035,811005
+811 006,Facilities Maintenance and Management Consulting -,J035,811006
+812 002,Dry Docking and/or Dockside Maintenance and Repair Services,J035,812002
+871 100,Ancillary Supplies and/or Services -,R425,871100
+871 202,Energy Management Planning and Strategies,R425,871202
+871 203,Training on Energy Management,R425,871203
+871 204,Metering Services,R425,871204
+871 205,Energy Program Support Services,R425,871205
+871 206,Building Commissioning Services,R425,871206
+871 207,Energy Audit Services,R425,871207
+871 208,Resource Efficiency Management (REM) -,R425,871208
+871 209,Innovations in Renewable Energy,R425,871209
+871 210,Water Conservation,R425,871210
+871 211,Energy Consulting Services -,R425,871211
+871 299,Introduction of New Services,R425,871299
+SIN,SIN Title,PSC ,SIN
+023 101,Trailers and Attachments -,2330,023101
+023 LSV,"Low Speed Vehicles, Gas or Electric",W023,023LSV
+025 101,Miscellaneous Vehicle Accessories -,2590,025101
+096 1N,Passenger Tires (New) -,2610,0961N
+096 2N,Light Truck Tires (New) -,2610,0962N
+096 2R,Light Truck Tires (Retread),2610,0962R
+096 3N,Medium Truck-Bus Tires (New) -,2610,0963N
+096 3R,Medium Truck - Bus Tires (Retread),2610,0963R
+096 4N,Specialty Tires (New),2610,0964N
+096 4R,Specialty Tires (Retread),2610,0964R
+125 102,Utility & Telecom Construction Equipment and Attachments -,2540,125102
+125 104,Vocational Bodies and Attachments -,2540,125104
+190 01,Fire Fighting Apparatus and Attachments,4210,19001
+190 02,Leased Fire Fighting Vehicles and Accessories,W042,19002
+190 03,Law Enforcement Vehicles and Attachments,4240,19003
+190 04,Emergency Communications Vehicles,4240,19004
+190 05,Special Vocation Vehicles and Attachments,4240,19005
+190 06,Aircraft Ground Support Vehicles and Equipment,1730,19006
+190 07,Upfitting of Government-owned Emergency Response Vehicles to Provide Turn-key Solutions,N042,19007
+271 101,Construction Equipment and Attachments: -,3930,271101
+271 102,Snow Maintenance Equipment (Vehicle Mounting),2320,271102
+271 103,Vehicular Cranes and Attachments -,3810,271103
+271 104,Snow Maintenance and Cleaning Equipment and Attachments -,3825,271104
+271 105,"Forestry, Mulching, Brush Cutting, and Land Clearing Equipment and Attachments -",3895,271105
+271 106,Street Repair Equipment and Attachments: -,3895,271106
+271 107,Leased Equipment and Accessories -,W038,271107
+271 108,"Spare Components and Equipment for Sedans, Light, Buses, Medium and Heavy Duty Trucks",2590,271108
+271 112,Leased Heavy Duty Vehicles and Accessories,W025,271112
+271 113,Ancillary Supplies,2320,271113
+271 114,Ancillary Services,N025,271114
+272 105,New Technologies,2320,272105
+272 106,Remanufactured Automotive Components -,2520,272106
+400 01,General Automotive Maintenance and Repair Services,J023,40001
+400 02,Automotive Body and Repair Services,J023,40002
+400 03,Automotive Towing Services,J023,40003
+618 02,Waste Disposal Vehicles and Attachments -,3695,61802
+967 01,Fuel and Petroleum Tank Trucks and Accessories -,2320,96701
+968 01,Water Tank Trucks and Accessories -,2320,96801
+SIN,SIN Title,PSC ,SIN
+165 205,"Multimedia Office Cabinets, Displays, and Filing Systems including Pocket Card Frames and Portfolios",7125,165205
+20 220,"Projection Screen, Stand, Printer (Enlarger), Systems",3610,20220
+20 300,Projectors & Electronic Whiteboards,3610,20300
+47 145,Typewriters,7430,47145
+47 147,Security Applications for Business Machines,3610,47147
+47 355,Dictating and Transcribing Machines and Systems,3610,47355
+50 156,Personal & Document Identification Systems,3610,50156
+50 163,"Mail Processing Machines, Systems and Related Software",3610,50163
+50 177,Date and Time Stamps,3610,50177
+50 180,Time and Attendance Program Systems,3610,50180
+50 205,Rental Plan for Postage Meters and Related Mailing Equipment,3610,50205
+50 281,Calculators,7420,50281
+50 287,Money Handling & Processing Machines,3610,50287
+50 7002,Stencil Cutting Machines,3610,507002
+51 001,Office Products for the Impaired,3610,51001
+51 002,Business Card Scanner and Solutions,3610,51002
+51 100,Copiers,3610,51100
+51 1000,Ancillary Supplies and/or Services,3610,511000
+51 1001,Introduction of New Products/Services (INPS SIN),3610,511001
+51 100C,"Cost-per-Copy Plan for Copiers (to include Analog, Digital, Multifunctional and Engineer Copiers)",3610,51100C
+51 100F,Flat Rate Monthly Fee Copying Plan For Copiers,3610,51100F
+51 101 2,"Consumable Supplies for Copiers, Computers Printers and Fax Machines",3610,511012
+51 101 7,Transparency Film,3610,511017
+51 208,"Maintenance Service Agreement For all Other Equipment Repair, replacement, and spare parts for equipment other than copiers, including their associated accessories and attachments.",J099,51208
+51 212,Post Copying/Finishing Equipment and Supplies,3610,51212
+51 229,Digital Duplicating Equipment,3610,51229
+51 400,3D Printing Solutions,3415,51400
+51 402,"Multi-Media Readers, Reader-Printers and Systems",3610,51402
+51 409,"Network, Optical Imaging Systems and Solutions",3610,51409
+51 417,"Microphotographic Film, Paper, Chemical Preparation and Equipment",3610,51417
+51 500,Managed Print Services,3610,51500
+51 501,Needs Assessment and Analysis Services,R799,51501
+51 503,Education and Training Support Services,U099,51503
+51 504,Records Management Services,R799,51504
+51 505,Document Production On-site and Off-site Services,R799,51505
+51 506,Document Conversion Services,R799,51506
+51 507,Destruction Services,R799,51507
+51 508,Litigation Support Services,R799,51508
+51 509,Network Connectivity Support Services,R799,51509
+51 55,Rental Plan for Copiers,3610,5155
+51 56,Repair of Government-Owned Equipment (all equipment covered under this schedule) for equipment not under Maintenance Service Agreement,3610,5156
+51 57,Maintenance Service Agreement For Copiers,J074,5157
+51 58,Lease to Ownership Plans (LTOP) Copiers,W074,5158
+51 58A,Operating Lease Plan For Copiers,W074,5158A
+51 58B,Operating Lease Plan - (All Other Products),W074,5158B
+51 B36 2A,International - All Equipment under this Schedule,3610,51B362A
+733 1,Mail Room Management Services,R604,7331
+733 2,Presort Mail,3610,7332
+733 3,Miscellaneous Mail Services,3610,7333
+733 4,List Management Services,R604,7334
+733 5,Mailroom Ergonomic Analysis Services,R604,7335
+733 6,Mail Screening and Inspection Services,3610,7336
+SIN,SIN Title,PSC ,SIN
+411 1,Ground Transportation Services,V122,4111
+411 2,RENTAL SUPPLEMENTAL VEHICLE PROGRAM (RSVP):,V122,4112
+411 3,Transportation Consulting Services,V122,4113
+411 4,Transportation Service Providers - Motor Freight,V111,4114
+411 5,Transportation Service Providers - Water Freight,V112,4115
+411 6,Transportation Service Providers - Rail Freight,V113,4116
+411 7,Transportation Service Providers - Air Cargo / Freight,V115,4117
+451 1,EXPRESS SMALL PACKAGE AND EXPRESS HEAVYWEIGHT DELIVERY SERVICES,V111,4511
+451 2,GROUND SMALL PACKAGE DELIVERY SERVICES,V112,4512
+451 3,LOCAL COURIER DELIVERY SERVICES,V112,4513
+451 99,NEW SERVICES,V111,45199
+653 1,Relocation Service Package,V301,6531
+653 3,Relocation Software and Technology Tools,V301,6533
+653 4,Additional Services,V301,6534
+653 5,Agency Customization Services,V301,6535
+653 7,Move Management Services,V301,6537
+653 8,OFFICE RELOCATION,V301,6538
+653 9,Long Term Lodging,V231,6539
+SIN,SIN Title,PSC ,SIN
+051 200,Accessories:,9999,051200
+051 300,"Inventory Bin Management, Technical Support and Training:",5110,051300
+051 400,Ancillary Supplies and/or Services,R498,051400
+051 99,Introduction of New Products and Services:,9999,05199
+105 001,"Hardware Store, Home Improvement Center, or MRO - Store Front",5120,105001
+105 002,"Hardware Store, Home Improvement Center, or MRO - Catalog",5120,105002
+105 003,"Hardware Store, Home Improvement Center, or MRO - Services",S208,105003
+341 100,"Lawn and Garden Equipment, Machinery, Implements, and Products",3695,341100
+341 500,Animal Deterrents:,3720,341500
+341 800,Lawn and Garden Tools:,3720,341800
+515 001,Leasing:,W099,515001
+515 002,Rental,W099,515002
+550 001,"Tools, Powered:",5130,550001
+577 001,Woodworking Machinery Equipment and Related Services,3220,577001
+577 002,Maintenance Industrial Machinery and Related Services,3444,577002
+577 005,"Metalworking Machinery and Equipment, and Related Services",3220,577005
+600 001,"Tool Boxes, Tool Chests and Tool Holders:",5140,600001
+612 209,Tool Kits:,5180,612209
+613 001,"Tools, Nonpowered:",5110,613001
+639 001,Domestic Appliances -,4120,639001
+639 002,Export Appliances,4120,639002
+834 100,"Commercial Coatings, Adhesives, Sealants and Related Services",8010,834100
+834 500,"Stains, Varnishes, Sealers, Shellacs and Lacquers and Related Services",8010,834500
+834 600,Commercial Coatings Removers and Related Services,8010,834600
+834 700,Commercial Coatings Applicators,8020,834700
+834 900,"Lubricants, Petroleum and Waxes:",8020,834900
+SIN,SIN Title,PSC ,SIN
+056 01,Smart Buildings Systems Integrator,J035,05601
+206 12,"Energy Saving, Energy Efficient, Sustainable, and Environmentally Sustainable Outdoor Lighting Solutions, Including Airport Lighting, Runway, Taxiway, Roadway and Parking Lot, Parking Garage Lighting Solutions:",6210,20612
+206 3,"Alternative and Renewable Sustainable Energy Solutions, Including Solar Energy Systems, Fuel Cells, Geothermal, and Wind Power:",6260,2063
+206 4,"Energy Saving Lighting, Energy Efficient, Sustainable, and Environmentally Sustainable Lamps (light bulbs), Lighting Fixtures and Accessories, Indoor Emergency Lighting, Reading Lights, Lighting Sensor Systems:",6210,2064
+253 19,Diagnostic Equipment:,4910,25319
+253 2,Wheel & Tire Equipment:,4910,2532
+253 20,Vehicle Material Handling Equipment:,4930,25320
+253 24,Lubrication Equipment:,4930,25324
+253 39,Air Compressors:,4310,25339
+253 40,Environmental Equipment and Services Related to Maintenance and Repair Shop Equipment:,4940,25340
+253 46,Miscellaneous Maintenance and Repair Shop Supplies:,4940,25346
+253 48A,Pressure Cleaners - Underwriters Laboratories (UL) 1776 Certified:,4940,25348A
+253 48C,Pressure Cleaners - Not UL-1776 Certified:,4940,25348C
+253 49,Automatic Cleaning Machines & Parts Washers:,4940,25349
+253 50,Blasters and Media:,4940,25350
+253 51,Spray Paint Booths and Equipment:,4940,25351
+253 52,Miscellaneous Abrasives:,5345,25352
+253 90,Ancillary Services related to Maintenance and Repair Shop Equipment:,R699,25390
+253 91,Lease/Rental of Vehicle Maintenance and Repair Shop Equipment:,R699,25391
+253 97,Ancillary Repair and Alterations related to Maintenance and Repair Shop Solutions,Z159,25397
+253 99,Introduction of New Services/Products relating to Maintenance and Repair Shop Equipment:,R699,25399
+357 02,Warehouse Trucks and  Tractors -,3930,35702
+357 03,"Utility Trucks, Platform Trucks, HandTrucks and Mail Carts -",3920,35703
+357 08,"Dock Plates, Boards, Ramps, and Bridges",3990,35708
+357 09B,Pallet Trucks -,3990,35709B
+357 10C,"Spill Containment Units, Containment Pallets, Non-Wooden Pallets -",3990,35710C
+357 11C,Warehouse Equipment and Supplies -,3990,35711C
+357 97,Ancillary Repair and Alterations related to Warehouse Equipment Solutions,R699,35797
+357 98,"Ancillary Services Relating to Warehouse Equipment and Supplies, Relating to and Ordered in Conjunction with Products Purchased Under the Supply Schedule Contract",R699,35798
+357 99,"Introduction of New Products/Services, related  to Warehouse Equipment and Supplies -",R699,35799
+361 05,"Scaffolding, Work and Service Platforms:",5440,36105
+361 10A,Pre-Engineered and Prefabricated Buildings and Structures for Storage Solutions:,5410,36110A
+361 10B,Pre-Engineered and Prefabricated Buildings and Structures for In-Plant Solutions:,5410,36110B
+361 10D,"Pre-Engineered and Prefabricated Buildings and Structures for Military, Disaster/Emergency Response, and Medical Facility Solutions:",5410,36110D
+361 10E,Pre-Engineered and Prefabricated Buildings and Structures for Professional Facility Solutions:,5410,36110E
+361 10G,Pre-Engineered and Prefabricated Buildings and Structures for Outdoor Shelter and Security Shelter Solutions:,5410,36110G
+361 10H,"Pre-Engineered and Prefabricated Buildings and Structures for Restroom, Shower, and Laundry Solutions:",5410,36110H
+361 20A,Above Ground Storage Tanks/Systems:,5430,36120A
+361 24,"Fuel Management Systems/Units, Fuel Dispensing Units, Fuel Monitoring Systems:",5430,36124
+361 27,"Ancillary Services for Above Ground Storage Tanks/Systems, Fuel Dispensing Units, and Fuel Management Systems:",5430,36127
+361 28,"Installation and Site Preparation for Above Ground Storage Tanks/Systems, Fuel Dispensing Units, and Fuel Management Systems:",5430,36128
+361 30,Ancillary Services relating to Pre-Engineered/Pre-Fabricated Buildings and Structures:,5410,36130
+361 32,Ancillary Services relating to Pre-Engineered/Pre-Fabricated Buildings and Structures:,5410,36132
+361 50,Lease/Rental of Pre-Engineered/Prefabricated Buildings and Structures:,5410,36150
+361 51,Lease/Rental of Pre-Engineered/Prefabricated Restrooms and Utility Rooms,5410,36151
+361 97,Ancillary Repair and Alterations related to Pre-Engineered/Prefabricated Building and Structures Solutions,5410,36197
+361 97A,"Ancillary Repair and Alterations related to Above Ground Storage Tanks, Fuel Dispensing Equipment, and Fuel Management System Solutions",Z294,36197A
+361 99,"Introduction of New Services and Products Related to Water Treatment and Above Ground Storage Tank/Systems Including, but not Limited to, Protected, Fire Resistant, Non Vaulted, Single or Dual Compartment/Single or Double Tank, Waste Oil Systems, Including Options, Parts and Accessories:",5430,36199
+361 99A,Introduction of New Services and Products related to  Pre-Engineered/Prefabricated Buildings and Structures:,5410,36199A
+383 10,Portable Light Towers:,6105,38310
+383 2,"Generators, Portable, Standby, Backup, or Prime:",6115,3832
+383 5,"Batteries and Battery Chargers, Including Rental:",6350,3835
+383 9,Battery and Alternator Monitoring Systems; Battery Spill Containment Systems; Parts and Accessories,6350,3839
+412 14,Uninterruptible Power Supplies:,6125,41214
+412 15,Power Distribution Units,6125,41215
+412 17,"Switchgear, Panelboards, Switchboards, Load Centers, Metering:",6125,41217
+412 19,Transformers,6120,41219
+412 21,"Electrical, Voltage, Generator Controls, Electric Motors, Motor Controllers/Motor Control Centers:",6145,41221
+412 3,"Surge Protection/Suppression:Surge Protection/Suppression, Hard Wired Surge Protection and EMI/RFI Filtration Devices:",5920,4123
+412 50,Ancillary Service Related to Alternative Energy Solutions and Power Distribution Equipment,R412,41250
+412 51,Installation and Site Preparation Services for Alternative Energy Solutions and Power Distribution Equipment:,Y237,41251
+412 52,Power Systems Engineering Support for Alternative Energy Solutions and Power Distribution Equipment:,R414,41252
+412 97,"Ancillary Repair and Alterations for Alternative Energy Systems, Power Generation Equipment, Generators, and Batteries Solutions",S214,41297
+412 99,"Introduction of New Services and Products related to Alternative Energy Solutions and Power Distribution Equipment, Generators and Batteries:",W061,41299
+563 16,"Energy Savings/Security Door, Window, and Wall Glass Fragmentation Transparencies, Glazings, and Film Solutions, including Solar,  Blast Mitigation, Bullet Resistant:",5640,56316
+563 23,"Doors, Windows, Skylights, Panels, and Shutters:",5520,56323
+563 25,Plumbing Products and Bathroom Fixture Solutions:,4510,56325
+563 27,"Energy Savings/Energy Efficient Industrial and Commercial Heating/Air Conditioning Units, Air Purification Equipment, HVAC Systems, Boiler Systems, Space Heaters, Air Curtains, Fans, and Blowers:",4130,56327
+563 28,"Energy Savings/Energy Efficient Industrial and Commercial Electric and Gas Water Heaters, Boiled Water Heaters, Including Options, Energy Efficient Monitoring Devices, and Accessories:",4510,56328
+563 29,Miscellaneous Building Materials:,5680,56329
+563 30,"Portable Roads, Airstrips, Helipads and Ground-Cover Mats:",5680,56330
+563 4,"Roofing Materials, Products and Services Solutions",5650,5634
+563 6,Access and Portable Flooring Solutions:,5680,5636
+563 8,"Erosion Control Solutions, Including Soil Stabilization Solutions, Protective Barriers and Sandbags, Fabric & Gabions:",5680,5638
+563 97,Ancillary Repair and Alterations for Building Materials Solutions,Z242,56397
+563 98,Ancillary Services related to Building Materials/Supplies:,Z242,56398
+563 99,Introduction of New Services and Products Related to Building Materials/Supplies:,5680,56399
+629 01A,"Forklifts-Electric, Gas, LPG, and Diesel Powered -",3930,62901A
+629 05,"Maintenance, Rental and Lease of Forklifts",R699,62905
+641 6,"Water Treatment Solutions, including Water Filtration Systems, Water Purification Systems, Sewage Treatment Equipment/Systems:",4630,6416
+SIN,SIN Title,PSC ,SIN
+219 10,Television/VCR/DVD/Blu-ray Combinations,7730,21910
+219 11,Audio Components,7730,21911
+219 13,Hand Held Camcorders,7730,21913
+219 3,Televisions,7730,2193
+219 4,"Television for Hospital, Hotels and Motel",7730,2194
+219 9,"VCRs, VCP, DVD, Blu-ray",7730,2199
+58 1,"Recording and Reproducing Video and Audio Equipment, Including Spare & Repair Parts, and Accessories",5820,581
+58 10,Professional Audio/Video Services NEC,R499,5810
+58 2,"Monitors and Monitors/Receivers, Including Spare & Repair Parts, and Accessories",5820,582
+58 3,"Television Cameras, Color or Monochrome, Including Spare & Repair Parts, & Accessories",5820,583
+58 4,"Audio Equipment, Including Spare & Repair Parts, and Accessories",5820,584
+58 6,"Telecommunications Equipment, Including Spare and Repair Parts, and Accessories",5820,586
+58 7,Ancillary Supplies and/or Services -,N058,587
+58 8,"Professional Audio/Video Assessment, Design, and Integration",R499,588
+58 9,Professional Audio/Video Production,R499,589
+58 98,Overseas (International) Products -,5820,5898
+58 99,"Introduction of New Products, Including Spare & Repair Parts and Accessories",5820,5899
+SIN,SIN Title,PSC,SIN
+599 1,Travel Consulting Services,V999,5991
+599 1000,Contract Support Items,V999,5991000
+599 2,Travel Agent Services,V302,5992
+599 3,Lodging Negotiations and Management Services,V999,5993
+599 4,Air Charter Services- Owner Operated,V221,5994
+599 5,Air Charter Services-Brokers,V221,5995
+599 6,Specialized Conference Facilities and Services,M1AB,5996
+599 99,Introduction to New Services/Products,V999,59999
+SIN,SIN Title,PSC,SIN
+540 11,Reusable Laboratory Plastic Ware,6640,54011
+540 12,Disposable Laboratory Plastic Ware,6640,54012
+540 16,Non-Plastic And Non-Glass Laboratory Ware,6640,54016
+540 19,"Laboratory Water Purification Devices, Systems",6640,54019
+540 2,"Labware Support Apparatus, Thermometers, Contact Heating Sensing Devices",6640,5402
+540 21,Filter Elements,6640,54021
+540 3,Reusable Laboratory Glassware,6640,5403
+540 7,Disposable Laboratory Glassware,6640,5407
+566 1,Modular Laboratory Furniture Systems,7195,5661
+566 2,"Individual Non-Modular Laboratory Tables, Cabinets, Benches, Laboratory Carts",7195,5662
+566 3,Special-Purpose Laboratory Furniture,7195,5663
+566 5,Workstation Design/Installation,7195,5665
+581 1,"Convertible Vertical Laminar Airflow, Biological Hazard Safety Cabinets",6636,5811
+581 2,"Externally Exhausted, Vertical Laminar Airflow, Biological Hazard Safety Cabinets",6636,5812
+602 1,Microwave/Millimeter Wave Antennas,5985,6021
+602 10,Pressure Standards And Calibration Instruments,6685,60210
+602 14,"Chart Recorders, Data Acquisition And Data Logging Systems",6625,60214
+602 17,"Laboratory Bench And Rack Power Supplies, Mount Type, Programmable",6625,60217
+602 18,Transducer Signal Conditioning Devices,6625,60218
+602 2,Microwave/Millimeter Wave Instrumentation Subcomponents,5985,6022
+602 21,Load Pressure And Vacuum Transducers,6685,60221
+602 22,Acceleration Transducers (Accelerometers),6625,60222
+602 23,"Vibration, Acoustic, And Ultrasonic Transducers",6625,60223
+602 24,Panel Meters,6625,60224
+602 26,Nuclear Radiation Standards And Calibrators,6625,60226
+602 3,Amplifiers And Filters,6625,6023
+602 30,"Vibration, Acoustic And Ultrasonic Testers and Analyzers",6635,60230
+602 31,"Spot-Sensing, Non-Contact Temperature-Measuring Instruments",6685,60231
+602 32,"Temperature/Heat Imaging Instruments; Humidity Standards And Calibrators, Heat Energy Measuring Instruments And Temperature Controlling Instruments",6685,60232
+602 35,"Ground Penetrating Radar Equipment (GPR), Electromagnetic Induction Equipment, And Other Conductive Material Locators",6695,60235
+602 40,Avionics Test Equipment,6695,60240
+602 4000,"Aircraft Components, Maintenance, Repair Services, Extended Warranties, And Maintenance Agreements",J059,6024000
+602 41,Navigational And Flight Instruments,6610,60241
+602 42,Automatic Pilot Mechanisms And Airborne Gyro Components,6615,60242
+602 43,Aviation Engine Instruments,6620,60243
+602 5,Microwave/Millimeter Wave Amplifiers,6625,6025
+602 6,"Electrical/Electronic Parameter, Standards And Calibration Instruments",6625,6026
+602 7,Time And Frequency Standards And Calibration Instruments,6625,6027
+602 8,Sound And Vibration Standards And Calibration Instruments,6625,6028
+602 9,Infrared Radiation And Temperature Standards And Calibration Instruments,6685,6029
+603 1,Ph And Ion-Selective Meters,6630,6031
+603 10,"Microscopes: Metallographic, Multipurpose And Electron",6650,60310
+603 13,Borescopes And Fiberscopes,6650,60313
+603 2,Titrators And Titration Systems,6630,6032
+603 3,Laboratory Centrifuges,6636,6033
+603 4,Microtomes And Microtom Cryostats,6636,6034
+603 5,"Laboratory Shakers And Mixers, Accessories And Options",6636,6035
+603 7,Tissue Embedding Equipment,6636,6037
+603 8,"Microscopes, Conventional Upright Type",6650,6038
+603 9,"Microscopes, Inverted Type",6650,6039
+615 1,Biomolecule Analyzers Synthesizers,6630,6151
+615 18,"Biomedical And Industrial Particle Counting And Sorting Apparatus And Systems And Related Chemistries, Supplies And Consumables",6635,61518
+615 19,"Blood Cell Analyzers For Clinical Hematology And Related Chemistries, Supplies And Consumables",6630,61519
+615 2,Elemental Analyzers,6630,6152
+615 3,Thermal Analysis,6630,6153
+615 4,"Gas Chromatograph (GC) And Chromatograph/Mass Spectrometer (GC-MS) Systems And Related Chemistries, Supplies And Consumables",6630,6154
+615 5000,"Product Support Options To Include Equipment Maintenance; Repair And Service; Calibration and Calibration Traceability Certificate; Extended Warranties; Technical Training, Technical Support And Application Development Support; And Equipment Leasing",J059,6155000
+615 9,"Liquid Chromatographer (LC) And Liquid Chromatographer/ Mass Spectrometer (LC-MS) Systems And Related Chemistries, Supplies And Consumables",6630,6159
+627 1,Oscilloscopes And Video Signal Monitors And Analyzers,6625,6271
+627 10,Component Analyzers And Testers,6625,62710
+627 1007,Introduction To New Services / Products (INSP),6625,6271007
+627 11,Circuit (PC Board And IC) Testers,6625,62711
+627 12,Telecommunication Line Testers And Analyzers,6625,62712
+627 13,Data Communication Equipment Testers And Analyzers,6625,62713
+627 14,LightWave Test Instruments,6625,62714
+627 15,Signal Generators,6625,62715
+627 17,Audio And Video Signal Generators,6625,62717
+627 18,Microwave Signal Generators,6625,62718
+627 2,Signal Analyzers,6625,6272
+627 2000,Equipment Maintenance And Repair,J059,6272000
+627 2001,Pre-Purchase Calibration Or Calibration Traceability Certificate,J059,6272001
+627 2002,Post Purchase Calibration Or Calibration Traceability Certificate,J059,6272002
+627 2003,Extended Warranty,J059,6272003
+627 2004,Service Agreement,J059,6272004
+627 2005,Technical Training And Support (TTS),R499,6272005
+627 2006,Technical/Application Development Support (TADS),R499,6272006
+627 22,Electronic Counters And Frequency Meters,6625,62722
+627 23,"Voltmeters, Ammeters And Multi-Meters",6625,62723
+627 25,Field Strength/Intensity Meters,6625,62725
+627 27,Line Power And Signal Power Meters And Line Power Consumption Meters,6625,62727
+627 29,Resistance And/Or Conductivity Meters And Bridges,6625,62729
+627 3,"RF Communication Monitors, Testers And Analyzers And Global Positioning System (GPS) Receiver Test Sets",6625,6273
+627 30,Reactance And Impedance Meters And Bridges,6625,62730
+627 31,Inductance And Capacitance Meters And Bridges,6625,62731
+627 32,AC Wiring Analyzers,6625,62732
+627 33,"Modular Instruments, Mainframes",6625,62733
+627 35,"Relay And Circuit Breaker Test Sets And Soldering, Desoldering, And Repair Equipment",6625,62735
+627 5,Audio/Distortion Signal Analyzers,6625,6275
+627 50,"Unmanned Vehicle Systems, Operations Support, Data Collection, Analysis, Reporting, and Related Services",1550,62750
+627 5001,Leasing Of Equipment,W099,6275001
+627 6,Electronic Noise Analyzers/Meters,6625,6276
+627 7,Network Analyzers,6625,6277
+627 8,"Voltage, Current And Line Power Recorders And Analyzers",6625,6278
+627 9,Digital Logic Generators And  Analyzers,6625,6279
+632 10,"Atomic Absorption, Atomic Emission, And Atomic Fluorescence Spectrometers, Including Inductively Coupled Plasma (IPC) And Inductively Coupled Plasma Mass Spectrometers (IPC/MS) Systems And Related Chemistries, Supplies And Consumables",6650,63210
+632 2,"Liquid Scintillation Systems And Gamma Counters, Accessories And Options",6630,6322
+632 5,Infrared Spectrometers,6650,6325
+632 6,"Ultraviolet, Visible, Infrared, And Near Infrared Spectrophotometers",6650,6326
+632 7,Fluorescence Spectrometers,6650,6327
+632 9,"X-Ray Spectrometers, Diffractometers, Emission Spectrometers, Including Flame, Spark, Arc And Laser Types, Mass Spectrometers",6650,6329
+66 100,"Blood Serum, Urine And Fecal Chemical Analysis, Instruments And Related Chemistries, Supplies And Consumables",6630,66100
+66 1000,Professional Scientific Services,R499,661000
+66 1002,"Ancillary Supplies And/Or Services And Related Chemistries, Supplies And Consumables",N052,661002
+66 102,"Blood Gas Analyzers, Electrolyte Analyzers, Blood Coagulation Analyzers And Timers, Single Test Analyzers And Related Chemistries, Supplies And Consumables",6630,66102
+66 107,"Electrophoresis, Including Capillary Electrophoresis And Electrophoration Devices And Systems, Nucleic Acid And Amino Acid Sequencing Systems",6630,66107
+66 113,"Hand Operated Pipettors, And Pipetting, Diluting And Dispensing Devices",6640,66113
+66 117,"Automated Pipetting And Dispensing Systems, And Laboratory Robotic Labware Handling Devices, Systems",6640,66117
+66 118,"Microplate Readers And Washers, And Cell Harvesting Apparatus",6640,66118
+66 122,Video Image Analyzers And Analysis Systems,6650,66122
+66 136,Animal Caging Equipment,6640,66136
+66 137,Laboratory Refrigerators And Freezers,6640,66137
+66 139,Environmental Chambers And Plant Growth Chambers,6636,66139
+66 141,"Miscellaneous Laboratory Equipment To Include Laboratory Baths; Freeze Drying Apparatus; Tissue Grinding, Processing, Cell Disruption Apparatus; Waste Recovery Systems; Laboratory Pumps; Ware Washers; Dryers; Laboratory Ovens And Furnaces",6636,66141
+66 147,Laboratory Fume Hoods,6636,66147
+66 148,Laboratory Incubators,6636,66148
+66 200,Laboratory Information Management System (LIMS),6640,66200
+66 231,"Laboratory Scales, Balances",6670,66231
+66 318,"Vehicular Scales, Balances",6670,66318
+66 320,"Industrial Scales, Balances",6670,66320
+66 501,Equipment Leasing,W099,66501
+66 502,Equipment Maintenance And Repair,J059,66502
+66 503,"Services And Product Support Options To Include Pre-Purchase Calibration, Post-Purchase Calibration, Extended Warranty And Service Agreements",J059,66503
+66 507,Technical Training And Support,R499,66507
+66 508,Technical  Application Development Support,R499,66508
+66 601,"Water Current Meters, Seawater Sampling And Salinity Measuring Equipment",6655,66601
+66 602,Seawater Sampling And Salinity Measuring Equipment,6655,66602
+66 603,Seismic Measuring and Recording Instruments,6655,66603
+66 604,"Underwater Releases, Transponders, Buoys, And Platforms And Oceanographic Analysis And Display Systems",6655,66604
+66 606,"Soil Temperature And Moisture Measuring Instruments, Plant Moisture Analysis Instruments",6655,66606
+66 607,"Air Temperature Measuring Instruments, Solar Radiation Measuring Instruments, Barometric Pressure Measuring Instruments",6660,66607
+66 608,"Humidity, Precipitation and Wind Measuring Instruments",6660,66608
+66 609,"Atmospheric And Video Computer Display System, Video Computer Weather Displays",6660,66609
+66 610,"Atmospheric, Meteorological Platforms, Enclosures And Sondes",6660,66610
+66 611,Multiparameter Environment And Flood Data Acquisition Systems,6660,66611
+66 612,Environmental Data Loggers And Communication Equipment,6660,66612
+66 613,"Electronic Distance Measuring Equipment, Theodolites, Engineering and Surveying Level Instruments, Planimeters",6675,66613
+66 614,Global Positioning Systems (GPS),6675,66614
+66 615,Noise Analyzers,6625,66615
+66 616,"Liquid/ Gas Flow Measuring Instruments, Liquid Level Measuring Instruments",6630,66616
+66 617,Water Monitors,6630,66617
+66 618,"Multi-Parameter Water Quality Instruments, Meters and Analyzers",6630,66618
+66 619,"Stack Emission Measuring Equipment, Gas Analyzers, Monitors, Particle Analyzers/Detectors",6630,66619
+66 620,"Air Sampling Equipment, Automatic Gas Alarms",6665,66620
+66 621,Radioactivity Detectors,6665,66621
+66 622,Storage Tank Leak Detectors,6665,66622
+873 1,Mechanical Testing And Analysis,H999,8731
+873 2,"Chemical Testing And Analysis Services And Related Chemistries, Supplies And Consumables",H999,8732
+873 3,Electric Testing And Analysis Services,H999,8733
+873 4,Geotechnical And Thermal/FireTesting And Analysis,H999,8734
+SIN,SIN Title,PSC ,SIN
+19 1,"Film, Paper, Chemical, Processing Equipment for Photographic and Radiographic Applications",6720,191
+19 100,Photographic Services and Solutions,6720,19100
+20 130,Photographic Laboratory Systems,6720,20130
+20 316,Cameras and Accessories mm,6720,20316
+20 320,Photo Digital Technologies,6720,20320
+262 53,Product Support for Photographic Products and Services,6720,26253
+67 100,Photographic analog and digital Cameras and   Imaging Systems and Services (Photo Instrumentation),6720,67100
+67 99,New Products/Technology,6720,6799
+SIN,SIN Title,PSC ,SIN
+132 100,Ancillary Supplies and/or Services - SUBJECT TO COOPERATIVE PURCHASING,7010,132100
+132 12,Equipment Maintenance - SUBJECT TO COOPERATIVE PURCHASING,J070,13212
+132 3,Leasing of Products - SUBJECT TO COOPERATIVE PURCHASING,W070,1323
+132 32,Term Software License - SUBJECT TO COOPERATIVE PURCHASING,7030,13232
+132 33,Perpetual Software License - SUBJECT TO COOPERATIVE PURCHASING,7030,13233
+132 34,Maintenance of Software as a Service - SUBJECT TO COOPERATIVE PURCHASING,J070,13234
+132 4,Daily/Short Term Rental - SUBJECT TO COOPERATIVE PURCHASING,W070,1324
+132 40,Cloud Computing Services -  SUBJECT TO COOPERATIVE PURCHASING,D305,13240
+132 50,Training Courses  - SUBJECT TO COOPERATIVE PURCHASING,U012,13250
+132 51,Information Technology Professional Services - SUBJECT TO COOPERATIVE PURCHASING,D399,13251
+132 52,Electronic Commerce and Subscription Services   SUBJECT TO COOPERATIVE PURCHASING,D304,13252
+132 53,Wireless Services - SUBJECT TO COOPERATIVE PURCHASING,D304,13253
+132 54,Commercial Satellite Communications (COMSATCOM) Transponded Capacity -- SUBJECT TO COOPERATIVE PURCHASING,D304,13254
+132 55,Commercial Satellite Communications (COMSATCOM) Subscription Services -- SUBJECT TO COOPERATIVE PURCHASING,D304,13255
+132 60A,"Electronic Credentials, Not Identity Proofed (Assurance Level 1 - OMB M-04-04) Managed Service Offering - SUBJECT TO COOPERATIVE PURCHASING",D399,13260A
+132 60B,"Electronic Credentials, Identity Proofed (Assurance Level 2   OMB M-04-04) Managed Service Offering - SUBJECT TO COOPERATIVE PURCHASING",D399,13260B
+132 60C,"Digital Certificates, including ACES (Assurance Level 3 and 4   OMB M-04-04) - SUBJECT TO COOPERATIVE PURCHASING",D399,13260C
+132 60D,E-authentication Hardware Tokens - SUBJECT TO COOPERATIVE PURCHASING,D399,13260D
+132 60E,Remote Identity and Access Managed Service Offering - SUBJECT TO COOPERATIVE PURCHASING,D399,13260E
+132 60F,Identity and Access Management Professional Services - SUBJECT TO COOPERATIVE PURCHASING,D399,13260F
+132 61,Public Key Infrastructure (PKI) Shared Service Providers (PKI SSP) Program,D399,13261
+132 62,"Products and services for agencies to implement the requirements of HSPD-12, FIP S-201 and associated NIST special publications. The HSPD-12 implementation components specified under this SIN are:",D399,13262
+132 8,Purchase Of New Equipment - SUBJECT TO COOPERATIVE PURCHASING,7010,1328
+132 9,Purchase of Used or Refurbished Equipment - SUBJECT TO COOPERATIVE PURCHASING,7010,1329
+132 99,Introduction of New Information Technology Services and/or Products  -SUBJECT TO COOPERATIVE PURCHASING,7010,13299
+SIN,SIN Title,PSC,SIN
+489 103,INTERIOR COMPONENTS,7110,489103
+489 154,VAULT DOOR ACCESSORIES,7110,489154
+489 157,Utility locker,7110,489157
+489 158,Key rack,7110,489158
+489 159,Wall key cabinet,7110,489159
+489 160,Wall cabinet,7110,489160
+489 161,SPECIAL ACCESS CONTROL CONTAINER,7110,489161
+489 166,"SAFE, BURGLARY RESISTANT",7110,489166
+489 167,Filing cabinet,7110,489167
+489 168,"Safe, insulated",7110,489168
+489 169,Depository,7110,489169
+489 171,ADP safe,7110,489171
+489 186,"MODULAR VAULT SYSTEM, GSA APPROVED",7110,489186
+489 187,VAULT DESIGN SERVICES,7110,489187
+489 188,INSTALLATION SERVICES,7110,489188
+489 189,REPAIR PARTS,7110,489189
+489 190,"CABINET, SECURITY, INFORMATION PROCESSING SYSTEM STORAGE, CLASS 5",7110,489190
+489 192,Room safes,7110,489192
+489 193,"Lock, Combination",7110,489193
+489 194,"Modular Vault System, Commercial",7110,489194
+489 98,International Products,7110,48998
+489 99,Introduction of New Products (INP),7110,48999
+71 1,Packaged Offices,7110,711
+71 100,Healthcare Exam Room,7110,71100
+71 101,Healthcare Waiting Room,7110,71101
+71 102,Healthcare Long Term Care Room,7110,71102
+71 103,Healthcare Office,7110,71103
+71 200,Dormitory and Quarters Packaged Rooms,7105,71200
+71 201,Cabinets:,7105,71201
+71 202,Wall Units:,7105,71202
+71 203,Loft Group:,7105,71203
+71 204,"Dormitory, Quarters and Residential Casegoods and Beds:",7105,71204
+71 205,"Chairs--Dining Room, Desk, Side, Period Style and Bar Stools:",7105,71205
+71 206,Upholstered Seating:,7105,71206
+71 207,Casual and Outdoor Furniture and Accessories:,7105,71207
+71 295,"Residential, Dormitory and Quarters Furniture Installation Services",7105,71295
+71 297,"Rental Residential, Dormitory and Quarters Furniture",7105,71297
+71 298,"International Residential, Dormitory and Quarters Furniture Products",7105,71298
+71 299,"Introduction of New Residential, Dormitory and Quarters Furniture Services/Products (INSP)",7105,71299
+71 301,"Complete Daycare, Preschool and Classroom Solutions",7110,71301
+71 302,"Training Room, Auditorium and Theater Furniture",7110,71302
+71 304,Lecterns.,7110,71304
+71 305,Library Furniture.,7110,71305
+71 306,Mail Sorting and Distribution Furniture.,7110,71306
+71 307,Mail Lock Boxes.,7110,71307
+71 308,Cafeteria and Food Service Furniture.,7110,71308
+71 309,Clothing Lockers and Locker Benches.,7110,71309
+71 310,"INDUSTRIAL AND INSTITUTIONAL FURNITURE: WORKBENCHES, WORKTABLES, WAREHOUSE STORAGE, AND HIGH DENSITY STORAGE CABINETS, MODULAR CABINETS.",7110,71310
+71 311,Modular Electronic Equipment Cabinets.,7110,71311
+71 312,Hazardous Materials Storage.,7110,71312
+71 313,Museum Storage.,7110,71313
+71 315,Hospital Patient Room Furniture.,7110,71315
+71 316,Hospital and Geriatric Chairs.,7110,71316
+71 317,"Chair, Convalescent.",7110,71317
+71 318,Patient Service Systems.,7110,71318
+71 320,BOOKSTACK.,7110,71320
+71 321,Correctional Institution Furniture.,7110,71321
+71 393,Special Use Furniture Design Services,7110,71393
+71 394,Special Use Furniture Reconfiguration Services,7110,71394
+71 395,Special Use Furniture Installation Services,7110,71395
+71 396,Leased Special Use Furniture.,7110,71396
+71 397,Rental Special Use Furniture,7110,71397
+71 398,International Special Use Furniture Products,7110,71398
+71 399,Introduction of New Special Use Furniture Services/Products (INSP),7110,71399
+71 90,Ancillary Supplies and/or Services,7110,7190
+71 98,International Packaged Room Furniture,7110,7198
+71 99,Introduction to New Packaged Room Services/Products,7110,7199
+711 1,Furniture Systems and Workstation Clusters,7110,7111
+711 10,Executive Furniture Single Item Accent & Speciality Pieces,7110,71110
+711 11,Tables and Accessories,7110,71111
+711 12,System Type Tables and Accessories,7110,71112
+711 13,"Acoustical Partitions, Demountable Walls, and Accessories",7110,71113
+711 14,Vertical Surface Attachment Panels and Accessories,7110,71114
+711 15,Acoustical Wall Treatments,7110,71115
+711 16,Upholstered Seating,7110,71116
+711 17,Multiple Seating,7110,71117
+711 18,Multipurpose Seating,7110,71118
+711 19,Stacking Chairs and Dollies or Trucks Designed to Support Stacking Chairs,7110,71119
+711 2,"Worksurfaces, Workstations, Computer Furniture and Accessories",7110,7112
+711 20,"Display and Communication Boards, Wall Stations, and Accessories",7110,71120
+711 3,"Filing and Storage Cabinets, Shelves, Mobile Carts, Dollies, Racks & Accessories",7110,7113
+711 4,Blueprint Filing Cabinets,7110,7114
+711 5,Card Files,7110,7115
+711 6,Form Files,7110,7116
+711 7,"High Density, Movable Filing Systems and Accessories",7110,7117
+711 8,Executive Office Furniture,7110,7118
+711 9,"Executive Conference Room Furniture, Coordinated Tables, Case Pieces and Accessories",7110,7119
+711 91,Project Management (Furniture Related):,7110,71191
+711 92,Remanufactured Furniture,7110,71192
+711 93,Reconfiguration and Relocation Services,7110,71193
+711 94,Office Design/Layout Services,7110,71194
+711 95,Office Furniture Installation Services,7110,71195
+711 96,Leased Office Furniture Systems,7110,71196
+711 97,Rental Office Furniture,7110,71197
+711 98,International Office Furniture,7110,71198
+711 99,Introduction of New Office Furniture Services/Products,7110,71199
+SIN,SIN Title,PSC,SIN
+712 1,Project Management (Furniture/Furnishings Related),N071,7121
+712 2,Assets Management (Furniture and Furnishings Related),N071,7122
+712 3,Reconfiguration/Relocation Management (Furniture and Furniture Related),N071,7123
+712 4,Furniture Design/Layout,N071,7124
+712 6,(Furniture and Furniture Related) - Assets Maintenance,N071,7126
+712 97,Ancillary Repair and Alterations,N071,71297
+712 99,Introduction of New Services/Products,N071,71299
+SIN,SIN Title,PSC,SIN
+31 301,Broadloom carpet,7220,31301
+31 302,Broadloom carpet,7220,31302
+31 303,Carpet tiles,7220,31303
+31 304,Special use broadloom carpet and carpet tiles.,7220,31304
+31 305,Carpet cushion,7220,31305
+31 401,Resilient (hard surface) tile,7220,31401
+31 402,Resilient (hard surface) sheet flooring,7220,31402
+31 501,Mats and matting (with and without logos),7220,31501
+31 502,Mats and matting (with and without logos),7220,31502
+31 601,"Recycled and/or biobased content (as defined in the Farm Security and Rural Investment Act of 2002, as amended) flooring",7220,31601
+31 602,Flooring Recycling Programs,7220,31602
+31 604,Ancillary Supplies and Services,7220,31604
+31 998,FLOOR COVERINGS,7220,31998
+31 999,FLOOR COVERINGS,7220,31999
+722 01,LAMPS/SHADES,6230,72201
+722 02,WINDOW TREATMENTS,7230,72202
+722 03,COORDINATING BEDSPREADS AND COMFORTERS,7210,72203
+722 04,CUBICLE CURTAINS AND HARDWARE,7230,72204
+722 05,"WALL ART INCLUDING PAINTINGS, PHOTOGRAPHS, AND POSTERS",7290,72205
+722 06,"ARTIFICIAL TREES, PLANTS, DRIED FOLIAGE, AND PLANTERS FOR INDOOR USE.",7290,72206
+722 08,Ancillary Supplies and Services (Small Business Set Aside),N072,72208
+722 97,OVERSEAS (INTERNATIONAL) PRODUCTS,7230,72297
+722 98,OVERSEAS (INTERNATIONAL) FABRIC,7230,72298
+722 99,INTRODUCTION OF NEW PRODUCTS,7230,72299
+SIN,SIN Title,PSC,SIN
+302 1,Kitchen Management Solutions,7310,3021
+302 15,Sanitation and Warewashing Equipment,3910,30215
+302 2,Emergency and Non-Emergency Food Service Support,7310,3022
+302 20,Food Preparation Equipment,7320,30220
+302 28,Food Service Carts and Holding and Transport Equipment,7310,30228
+302 29,Food Measuring and Testing Devices,6670,30229
+302 3,Cooking Equipment,7310,3023
+302 30,Food Serving and Merchandising Equipment,7195,30230
+302 34,Hot and Cold Food Counters,7195,30234
+302 36,Food and Beverage Dispensing Equipment,7310,30236
+302 40,"Food Preparation and Storage Smallwares,",7125,30240
+302 41,Food Service Items,7320,30241
+302 42,Food Service Storage Racks and Cabinets,7125,30242
+302 49,Refrigeration Equipment,4110,30249
+302 56,Concession Equipment,7310,30256
+302 65,Kitchens in Minutes,7360,30265
+302 72,Kiosks Food Center Concepts,7360,30272
+302 74,Tableware,7340,30274
+302 98,Ancillary Services Related to Food Service Equipment,J073,30298
+302 99,Introduction of New Services and Products Related to Food Service Equipment,3910,30299
+375 100,Vacuum Cleaner Canister Type,7910,375100
+375 103,Vacuum Cleaner Upright Type,7910,375103
+375 107,Vacuum Cleaner Portable Hand Type,7910,375107
+375 117,"Carpet Cleaner, including Shampooer, Extractor, Liquid or Powder",7910,375117
+375 125,Sweeper and Scrubber,7910,375125
+375 129,Floor Machine,7910,375129
+375 135,Accessories and Attachments,7910,375135
+375 139,"Parts, Repair and Replacement, Miscellaneous for Cleaning Equipment",7910,375139
+375 200,"Mops, Buckets, Wringers, Squeegees, Brooms, Brushes, Sponges, Scouring Pads, Wiping Rags, Cleaning Cloths, Chamois, Polishing Pads, Cleaning Products, and Related Items",7920,375200
+375 321,Powdered and Liquid Machine Warewashing (Dishwashing) Compounds and Rinse Additives,7930,375321
+375 323,"Laundry Cleaner, Powdered and Liquid, and Dry Cleaning Chemicals",7930,375323
+375 341,Floor and Carpet Chemical Products,7930,375341
+375 351,Sorbents,7930,375351
+375 352,Sorbents,7930,375352
+375 353,Sorbents,7930,375353
+375 355,Sorbent Accessories,7930,375355
+375 356,Sweeping Compounds,7930,375356
+375 361,Biodegradable Cleaner/Degreaser (Water Based) Non-Phenolic and Non-Petrolemm,7930,375361
+375 362,Biodegradable Cleaner/Degreaser (Solvent Based) Non-Phenolic and Non-petroleum,7930,375362
+375 363,Cleaners/Degreasers,7930,375363
+375 364,Cleaner/Degreasers and Polishes,7930,375364
+375 368,"Gloves, Cleaning, Rubber",8465,375368
+375 371,Cleaning Chemical Dispensing Equipment and Systems,7930,375371
+375 372,Cleaning Chemicals used with Dispensing Systems,7930,375372
+375 391,"Auto Cleaners/Polishers, Air Fresheners, and Windshield Care",7930,375391
+375 393,Tire Care:,7930,375393
+375 99,"Introduction of New Products/Services relating to Cleaning Equipment, Janitorial Supplies, Cleaning Chemicals and Sorbents",7920,37599
+384 2,Office Recycling Containers and Waste Receptacles,7240,3842
+384 4,Outdoor Recycling Containers and Waste Receptacles,7240,3844
+384 9,Industrial Trash Storage Containers,3990,3849
+384 99,Introduction of New Services and Products relating to Recycling Containers and Waste Receptacles,7310,38499
+476 12,"Sterilants, Surgical Scrubs, and Related Products",6840,47612
+476 13,Disinfectants,6840,47613
+507 2,"Permanent/Disposable dispenser housing and refills for the control of general institutional airborneodors, smoke, and sanitizing surfaces",6840,5072
+507 4,"Toilet Bowl Cleaner, liquid, powder, and/or gel and product",6810,5074
+507 8,Sanitizers for Food Handling Areas,6840,5078
+507 9,Insect Repellent,6840,5079
+507 99,Introduction of New Products/Services related to chemicals and chemical products,6840,50799
+524 1,Fuel Oil Additive,6850,5241
+524 2,"Boiler Feed, Cooling Water, and Closed Water Treatment Chemicals",6810,5242
+655 01,Propane,6830,65501
+655 03,Service/Repair and or Rental Demurrage relating to Propane,6850,65503
+658 1,Water Purification Chemicals,6850,6581
+681 1,Road Stabilization/Ice Melting Chemicals or Chemical Formulations,6810,6811
+681 2,Aircraft Deicers,6850,6812
+681 4,"Antifreeze, Fuel Engine Primer, Penetrates, and Related Products -^^^^NOTE: Commercially available products under this SIN may be covered by the U.S. Environmental Protection Agency Comprehensive Procurement Guidelines (recycled content) program.",6850,6814
+852 1,Toiletries,8520,8521
+852 2,Personal Care Articles,7290,8522
+852 3,Lodging and Hospitality Supplies and Services,7210,8523
+852 4,Hospitality Wear,8415,8524
+852 7,Linens,7210,8527
+852 99,"Introduction of New Products/Services relating to toiletries, personal care articles, and hospitality supplies and services",7210,85299
+SIN,SIN Title,PSC,SIN
+736 1,"ADMINISTRATIVE SUPPORT AND CLERICAL OCCUPATIONS (with and/or without security clearances, i.e. Secret, Top Secret, and Top Secret SCI, etc.):  This SIN is set aside for small business concerns only.",R699,7361
+736 2,"AUTOMATIC DATA PROCESSING OCCUPATIONS (with and/or without security clearances, i.e. Secret, Top Secret, and Top Secret SCI):  This SIN is set aside for small business concerns only.",R699,7362
+736 3,"GENERAL SERVICES AND SUPPORT (with and/or without security clearances, i.e. Secret, Top Secret, and Top Secret SCI):  This SIN is set aside for small business concerns only.",R699,7363
+736 4,"INFORMATION AND ARTS OCCUPATIONS, INCLUDING MISCELLANEOUS OCCUPATIONS (with and/or without security clearances, i.e. Secret, Top Secret, and Top Secret SCI):  This SIN is set aside for small business concerns only.",R699,7364
+736 5,"TECHNICAL AND PROFESSIONAL OCCUPATIONS (with and/or without security clearances, i.e. Secret, Top Secret, and Top Secret SCI):  This SIN is set aside for small business concerns only.",R699,7365
+736 99,"INTRODUCTION OF NEW LABOR CATEGORIES FOR TEMPORARY SERVICES (with and/or without security clearances, i.e. Secret, Top Secret, and Top Secret SCI):  This SIN is set aside for small business concerns only.",R699,73699
+SIN,SIN Title,PSC,SIN
+595 21, HUMAN RESOURCE SERVICES (Excluding EEO Services),R799,59521
+595 22,Private Shared Service Center for Core HR Services:,R799,59522
+595 25,EEO Services,R499,59525
+595 26,Private Shared Service Center for non-Core HR Services (offered by contractors awarded 595-22):,R799,59526
+595 27,Pre-Employment Background Investigations,R499,59527
+595 28,"Social Services, Professional Counseling and Veterans  Readjustment & Behavioral Health Services",R799,59528
+SIN,SIN Title,PSC ,SIN
+75 200,OFFICE PRODUCTS/SUPPLIES,7510,75200
+75 210,OFFICE SERVICES,T099,75210
+75 85,Restroom Products,7510,7585
+75 99,NEW PRODUCTS/TECHNOLOGY,7510,7599
+SIN,SIN Title,PSC ,SIN
+751 1,"Lease of Sedans, All Classes",W023,7511
+751 2,Lease of Sport Utility Vehicles,W023,7512
+751 3,Lease of Vans & Light Trucks,W023,7513
+751 4,Ancillary Supplies and/or Services -,W023,7514
+SIN,SIN Title,PSC,SIN
+760 1,Books/Pamphlets,7610,7601
+760 2,Periodicals/Subscriptions Services,7630,7602
+760 3,"Editorial, Publishing, and Library Media Services:",R499,7603
+760 4,On-Line Bookselling Services and Associated Items,7690,7604
+760 5,Lending Library Services,W076,7605
+760 6,"Entertainment,  News, and Library Media:",7690,7606
+SIN,SIN Title,PSC,SIN
+192 02,Sporting Goods Equipment and Supplies  /n,7810,19202
+192 03,Fitness Center Management Services,M1FB,19203
+192 04,Personal Trainer and Aerobic/Cardio Class Leader/Instructor,R497,19204
+192 05,Fitness Center Equipment Maintenance,J099,19205
+192 06,Packaged Fitness Center,7810,19206
+192 08,Fitness equipment   /n,7810,19208
+192 09,"Turfs, Greens and Floors Galore /n",7220,19209
+192 19,Poolside /n,7830,19219
+192 33A,Camping and Hiking Equipment,5419,19233A
+192 37B,"Park and Recreational Tables, Benches, Outdoor Pool and Patio Furniture and Bleachers",5450,19237B
+192 37I,Park and Playground Equipment,7830,19237I
+192 41,Sounds of Music,7710,19241
+192 42,Child's Play,7820,19242
+192 45,Sports Clothing and Accessories /n,8415,19245
+192 99,"Introduction of New Products/Services relating to Athletic Clothing, Recreational Equipment, and Musical Instruments/n",7810,19299
+192 99A,Introduction of New Products and Services Relating to Park and Outdoor Recreational Equipment and Wheel and Track Vehicles/n,5419,19299A
+251 1,Wheel and Track Vehicles,2340,2511
+251 13,"Mobile Homes, Travel Trailers with Ancillary Services",2330,25113
+251 22,Recreational Watercraft,1990,25122
+251 6,"Utility Vehicle, Unlicensed, Off-Road, Automotive Design",2410,2516
+366 11,Signs -,9905,36611
+366 12,Safety Zone Products /n,4240,36612
+366 22,"Trade Show Displays, Exhibit Systems and Related Products",9905,36622
+366 23,"Flags, Banners, Pennants, and Related Products",8345,36623
+366 90,Ancillary Supplies and/or Services -,9999,36690
+366 99,Introduction of New Products/Services Relating to Signs and Safety Zone Products,9905,36699
+402 5,Awards /n,8455,4025
+402 7,"Pens & Writing Implements, Rulers, Tape Measures, Magnets, Stress Indicators, Key Tags, Key Rings, Luggage Tags, Pocket Tools, Ice Scrapers, Mugs, Glassware, Plates and Bowls suitable for Engraving, Imprintable Planners, Portfolios, Calculators, Briefcases, Carrying Cases, Bags and Accessories, Imprintable Computer Accessories, including Mouse Pads and Wrists Rests",7510,4027
+402 99,"Introduction of New Products/Services related to Trophies, Awards, Presentations, Promotional Materials, Flags, Briefcases, and Carrying Cases/n",9905,40299
+SIN,SIN Title,PSC ,SIN
+617 1,Bags and sacks,8105,6171
+617 10,Packaging services.,8135,61710
+617 11,"Maintenance, Repair and Modification of Containers",8135,61711
+617 12,"Pallets, Plastic and Wood",8135,61712
+617 13,Unique Identification (UID) / Radio Frequency Identification (RFID,8135,61713
+617 2,"Bottles, jars, boxes, cartons, crates, container systems and metal drums.",8110,6172
+617 3,Wrapping and strapping materials,8135,6173
+617 4,Packaging and packing bulk materials,8135,6174
+617 5,"Performance-Oriented Packaging (POP), plastic over pack, and hazardous material packaging.",8135,6175
+617 7,Aluminum Foil,8135,6177
+617 8,New Technology,8105,6178
+SIN,SIN Title,PSC,SIN
+246 01,Smart Buildings Systems Integrator,R425,24601
+246 1000,"Security, Alarm & Signal Systems",6350,2461000
+246 20 1,Miscellaneous Alarm and Signal Systems. Process Monitoring/Fault Reporting Devices or Systems  - SUBJECT TO COOPERATIVE PURCHASING,6350,246201
+246 20 2,Miscellaneous Alarm and Signal Systems  - SUBJECT TO COOPERATIVE PURCHASING,6350,246202
+246 20 3,Miscellaneous Alarm and Signal Systems. Audible/Visual Warning/Signaling Devices  - SUBJECT TO COOPERATIVE PURCHASING,6350,246203
+246 20 4,Miscellaneous Alarm and Signal Systems. Warning System Devices (Patient/Detainees)  - SUBJECT TO COOPERATIVE PURCHASING,6350,246204
+246 23,Anti-Theft Material Alarm Control Systems for Detection of Property  - SUBJECT TO COOPERATIVE PURCHASING,6350,24623
+246 25,Fire Alarm Systems  - SUBJECT TO COOPERATIVE PURCHASING,6350,24625
+246 35 1,"Access Control Systems,  Door entry control by card access, magnetic proximity  - SUBJECT TO COOPERATIVE PURCHASING",6350,246351
+246 35 2,"Access Control Systems,  Door entry control by touch access, dial, digital, keyboard, keypad  - SUBJECT TO COOPERATIVE PURCHASING",6350,246352
+246 35 3,"Access Control Systems, Parking Access Control  - SUBJECT TO COOPERATIVE PURCHASING",6350,246353
+246 35 4,"Access Control Systems, Emergency exit door access/alarm systems for security and/or fire safety  - SUBJECT TO COOPERATIVE PURCHASING",6350,246354
+246 35 5,"Access Control Systems - Vehicle Arrest/Security Barrier/Barricade/Bollard Systems, Decorative Barrier Planters  - SUBJECT TO COOPERATIVE PURCHASING",8405,246355
+246 35 6,Other Access Control Systems  - SUBJECT TO COOPERATIVE PURCHASING,6350,246356
+246 36,Locking Devices  - SUBJECT TO COOPERATIVE PURCHASING,6350,24636
+246 40,Intrusion Alarms and Signal Systems  - SUBJECT TO COOPERATIVE PURCHASING,6350,24640
+246 42 1,Facility Management Systems  - SUBJECT TO COOPERATIVE PURCHASING,6350,246421
+246 42 2,Facility Management Systems  - SUBJECT TO COOPERATIVE PURCHASING,6350,246422
+246 42 3,Facility Management Systems  - SUBJECT TO COOPERATIVE PURCHASING,6350,246423
+246 43,Perimeter Security/Detection Systems  - SUBJECT TO COOPERATIVE PURCHASING,6350,24643
+246 51,Installation of Security/Facility Management Systems Requiring Construction  - SUBJECT TO COOPERATIVE PURCHASING,N063,24651
+246 52,Professional Security/Facility Management Services  - SUBJECT TO COOPERATIVE PURCHASING,R425,24652
+246 53,Facility Management and Energy Solutions   - SUBJECT TO COOPERATIVE PURCHASING,6350,24653
+246 54,Protective Service Occupations  - SUBJECT TO COOPERATIVE PURCHASING,S206,24654
+246 60 1,Security Systems Integration and Design Services  - SUBJECT TO COOPERATIVE PURCHASING,R408,246601
+246 60 2,Security Management and Support Services  - SUBJECT TO COOPERATIVE PURCHASING,R425,246602
+246 60 3,Security System Life Cycle Support  - SUBJECT TO COOPERATIVE PURCHASING,R423,246603
+246 60 4,Total Solution Support Products  - SUBJECT TO COOPERATIVE PURCHASING,R408,246604
+246 99,Introduction of New Products/Services relating to Alarm and Signal Systems/Facility  - SUBJECT TO COOPERATIVE PURCHASING,6350,24699
+260 01,"Boats, Powered  - SUBJECT TO COOPERATIVE PURCHASING",1940,26001
+260 03,"Boats, Nonpowered  - SUBJECT TO COOPERATIVE PURCHASING",1940,26003
+260 06,"Boats, Inflatable, Powered and Nonpowered  - SUBJECT TO COOPERATIVE PURCHASING",1940,26006
+260 09,"Inboard and Outboard Engines, Marine Diesel Propulsion Engines (Ranging in Horsepower from  150-4,000)  - SUBJECT TO COOPERATIVE PURCHASING",2805,26009
+260 10,Marine Craft Electronics  - SUBJECT TO COOPERATIVE PURCHASING,1940,26010
+260 1000,Marine Craft -,1940,2601000
+260 11,Marine Craft Trailers and Trailer Accessories/Spare Parts  - SUBJECT TO COOPERATIVE PURCHASING,1940,26011
+260 12,"Floating Marine Barriers and Booms, Floats, Perimeter Floats, and Moorings  - SUBJECT TO COOPERATIVE PURCHASING",1945,26012
+260 13,"Marine Craft Modifications, Marine Craft Repair and Marine Craft Spare Parts  - SUBJECT TO COOPERATIVE PURCHASING",1940,26013
+260 14,Harbor/Waterfront Security Products and Services and Professional Marine Security Services  - SUBJECT TO COOPERATIVE PURCHASING,1940,26014
+260 99,Introduction of New Products and Services Items Directly Related to Marine Equipment  - SUBJECT TO COOPERATIVE PURCHASING,1940,26099
+426 1000,Law Enforcement -,8415,4261000
+426 1A,Miscellaneous Personal Equipment  - SUBJECT TO COOPERATIVE PURCHASING,8465,4261A
+426 1B,Body Armor  - SUBJECT TO COOPERATIVE PURCHASING,8470,4261B
+426 1C,Helmets  - SUBJECT TO COOPERATIVE PURCHASING,8415,4261C
+426 1D,Restraining Equipment  - SUBJECT TO COOPERATIVE PURCHASING,8465,4261D
+426 1G,Miscellaneous Non-Personal Law Enforcement Equipment  - SUBJECT TO COOPERATIVE PURCHASING,5120,4261G
+426 2A,"Canine Training and Handling Equipment, Canine Search and Detection  - SUBJECT TO COOPERATIVE PURCHASING",8465,4262A
+426 3A,Emergency Signal Systems  - SUBJECT TO COOPERATIVE PURCHASING,6350,4263A
+426 3B,In-Vehicle Protection and Restraint Systems  - SUBJECT TO COOPERATIVE PURCHASING,2540,4263B
+426 3C, ,8405,4263C
+426 3D,Police Bicycles,2340,4263D
+426 4C,Night Vision Equipment  - SUBJECT TO COOPERATIVE PURCHASING,5855,4264C
+426 4D,Alcohol Detection Kits and Devices  - SUBJECT TO COOPERATIVE PURCHASING,6545,4264D
+426 4E,Bomb Disposal and Hazardous Material Protective and Detective Equipment  - SUBJECT TO COOPERATIVE PURCHASING,3690,4264E
+426 4F,"Emergency Preparedness and First Responder Equipment, Training and Services  - SUBJECT TO COOPERATIVE PURCHASING",4230,4264F
+426 4G,"Firearms Storage, Securing and Cleaning Equipment; Unloading Stations; Bullet Recovery Systems and Gun Racks  - SUBJECT TO COOPERATIVE PURCHASING",7125,4264G
+426 4J,Target Systems/Target Range Accessories  - SUBJECT TO COOPERATIVE PURCHASING,6920,4264J
+426 4K,Metal and Bomb Detection Equipment:  - SUBJECT TO COOPERATIVE PURCHASING,6665,4264K
+426 4L,Fingerprinting/Palmprinting (Taking and Detection) and Evidential Casting Materials  - SUBJECT TO COOPERATIVE PURCHASING,7520,4264L
+426 4M,"Employment, Forensic Drug Testing Equipment and Services - SUBJECT TO COOPERATIVE PURCHASING",8405,4264M
+426 4N,Criminal Investigative Equipment and Supplies  - SUBJECT TO COOPERATIVE PURCHASING,6630,4264N
+426 4Q,Vehicle Monitor (Tracking) Systems  - SUBJECT TO COOPERATIVE PURCHASING,6675,4264Q
+426 4R,Radiation/Nuclear Material Detection Equipment,6640,4264R
+426 4S,"Surveillance Systems, Wearable Body Cameras, Vehicular Video",5820,4264S
+426 5A,Aircraft Armoring and Related Services  - SUBJECT TO COOPERATIVE PURCHASING,2540,4265A
+426 5B,"Armored Vehicles, Vehicle Armoring Services, Wheeled Vehicles  - SUBJECT TO COOPERATIVE PURCHASING",2540,4265B
+426 6,Law Enforcement and Security Training  - SUBJECT TO COOPERATIVE PURCHASING,R425,4266
+426 7,Professional Law Enforcement Services  - SUBJECT TO COOPERATIVE PURCHASING,R425,4267
+426 99,Introduction of New Services/Products related to Law Enforcement and Security Equipment  - SUBJECT TO COOPERATIVE PURCHASING,8405,42699
+465 10,Emergency Patient Transportation and Immobilization Devices  - SUBJECT TO COOPERATIVE PURCHASING,6515,46510
+465 1000,Wildland Firefighters -,4210,4651000
+465 11,"Fire Extinguishing/Suppressing Products, Retardant, Foams and Equipment  - SUBJECT TO COOPERATIVE PURCHASING",4210,46511
+465 17,Firefighting Distress/Signal Devices and Heat Sensing Devices  - SUBJECT TO COOPERATIVE PURCHASING,6350,46517
+465 19,"Firefighting and Rescue Tools, Equipment and Accessories  - SUBJECT TO COOPERATIVE PURCHASING",5120,46519
+465 22,"Breathing Air Equipment, Inhalator Devices, Respiratory Protection Products, Related Support Items and Solutions   - SUBJECT TO COOPERATIVE PURCHASING",8405,46522
+465 8,Flood Control Equipment - Traditional and Alternative Approaches  - SUBJECT TO COOPERATIVE PURCHASING,4210,4658
+465 9,Medical/ Rescue Kits  - SUBJECT TO COOPERATIVE PURCHASING,4210,4659
+567 15,"Hoses, Valves, Fittings, Nozzles, Couplings and Related Accessories.  Hoses  - SUBJECT TO COOPERATIVE PURCHASING",4210,56715
+567 4,Helicopter Equipment and Products for Search and Rescue and Firefighting Applications  - SUBJECT TO COOPERATIVE PURCHASING,4240,5674
+567 8,Burning Equipment  - SUBJECT TO COOPERATIVE PURCHASING,5120,5678
+567 99,Introduction of New Products and Services relating to Firefighting and Rescue Equipment  - SUBJECT TO COOPERATIVE PURCHASING,4210,56799
+633 1,"Gloves - Industrial, Work and Cold Weather Gloves  - SUBJECT TO COOPERATIVE PURCHASING",8415,6331
+633 1000,Special Purpose Clothing -,8415,6331000
+633 15,Rainwear.  Lightweight Rainwear  - SUBJECT TO COOPERATIVE PURCHASING,8405,63315
+633 16,"Footwear.  Men's Over-the-Sock Boots (Work, Uniform, Sport) and Women's Over-the-Sock Boots (Work, Uniform, Sport)  - SUBJECT TO COOPERATIVE PURCHASING",8430,63316
+633 18,"Footwear.  Men's or Women's Overshoes, Rubber  - SUBJECT TO COOPERATIVE PURCHASING",8405,63318
+633 19,Footwear.  Men's Safety Toe Shoes or Boots and Women's Safety Toe Shoes or Boots  - SUBJECT TO COOPERATIVE PURCHASING,8430,63319
+633 21A,Shipboard/Aircraft Anti-Exposure Immersion Clothing Not Otherwise Covered  - SUBJECT TO COOPERATIVE PURCHASING,8405,63321A
+633 22,"Extreme Cold Weather Clothing.  Coats, Jackets, Vests, Hoods and Hats  - SUBJECT TO COOPERATIVE PURCHASING",8405,63322
+633 23,"Extreme Cold Weather Clothing.  Overalls, Coveralls, Pants, Insulated  - SUBJECT TO COOPERATIVE PURCHASING",8405,63323
+633 25,"Footwear.  Boots, Insulated, Waterproof, Extreme Cold Weather  - SUBJECT TO COOPERATIVE PURCHASING",8430,63325
+633 26,Special Purpose Work clothes.  Disposable Clothing  - SUBJECT TO COOPERATIVE PURCHASING,8405,63326
+633 27,"Special Purpose Work clothes.  Coveralls, General Purpose, Detainee Clothing  - SUBJECT TO COOPERATIVE PURCHASING",8405,63327
+633 30,"Structural Fire Fighting Clothing.  Coat, Turnout; Trousers  - SUBJECT TO COOPERATIVE PURCHASING",8405,63330
+633 30A,"Structural Fire Fighting Clothing.  Coat, Turnout, Proximity; Trousers, Proximity; Helmets, Proximity  - SUBJECT TO COOPERATIVE PURCHASING",8405,63330A
+633 32,"Structural Fire Fighting Clothing.  Boots, Bunker and Hip  - SUBJECT TO COOPERATIVE PURCHASING",8405,63332
+633 33,Structural Fire Fighting Clothing.  Gloves  - SUBJECT TO COOPERATIVE PURCHASING,8405,63333
+633 35,Structural Fire Fighting Clothing.  Protective Hoods  - SUBJECT TO COOPERATIVE PURCHASING,8405,63335
+633 37,Structural Fire Fighting Clothing.  Fire Fighter's Station Wear  - SUBJECT TO COOPERATIVE PURCHASING,8405,63337
+633 38,Wildland Fire Fighting Clothing - Personal Protection.  Shirts and Pants (BDU's) NFPA 1977 Compliant  - SUBJECT TO COOPERATIVE PURCHASING,8405,63338
+633 39,"Wildland Fire Fighting Clothing - Personal Protection.  Brush Shirts, Pants, Coats, Jackets, Jumpsuits - NFPA 1977 Compliant.  Shirts, Pants, coats, Jumpsuits, coveralls - Flame Resistant.  Not NFPA Compliant  - SUBJECT TO COOPERATIVE PURCHASING",8405,63339
+633 4,"Protective Worksuits, Waterproof, Chemical and Electrical Safety.  Jackets, Coats and Hoods  - SUBJECT TO COOPERATIVE PURCHASING",8405,6334
+633 40,"Flotation Devices.  Personal Flotation Devices, Coast Guard Approved Under 46 CFR 160.064; and Personal Flotation Devices Not Coast Guard Approved  - SUBJECT TO COOPERATIVE PURCHASING",4220,63340
+633 43,"Wildland Fire Fighting Clothing - Personal Protection.  Helmets, Safety, Wildfire - NFPA 1977 Compliant  - SUBJECT TO COOPERATIVE PURCHASING",8405,63343
+633 45,"Wildland Fire Fighting Clothing - Personal Protection.  Helmets, Safety, Electrical Construction (Welder's)  - SUBJECT TO COOPERATIVE PURCHASING",8405,63345
+633 47,"Security Wear, EMS Clothing and Related Products  - SUBJECT TO COOPERATIVE PURCHASING",8405,63347
+633 48,"High Visibility, Reflective Safety Products  - SUBJECT TO COOPERATIVE PURCHASING",8405,63348
+633 49,Medical/Hospital Clothing  - SUBJECT TO COOPERATIVE PURCHASING,8405,63349
+633 50,Industrial Work Shirts and Pants  - SUBJECT TO COOPERATIVE PURCHASING,8405,63350
+633 51,"Concealment Clothing, Camouflage Clothing and BDU's  - SUBJECT TO COOPERATIVE PURCHASING",8405,63351
+633 52,Miscellaneous Footwear Accessories  - SUBJECT TO COOPERATIVE PURCHASING,8405,63352
+633 6,"A Protective Worksuits, Waterproof, Chemical and Electrical Safety  - SUBJECT TO COOPERATIVE PURCHASING",8405,6336
+633 60,Miscellaneous Undergarments for use with Special Purpose Clothing  - SUBJECT TO COOPERATIVE PURCHASING,8405,63360
+633 61,Special Purpose Clothing not elsewhere covered under this solicitation  - SUBJECT TO COOPERATIVE PURCHASING,8405,63361
+633 6A,Emergency Response/Hazmat Clothing and Related Products  - SUBJECT TO COOPERATIVE PURCHASING,8405,6336A
+633 70,Cool/Hot Products  - SUBJECT TO COOPERATIVE PURCHASING,8405,63370
+633 99,Introduction of New Products/Services relating to Special Purpose Clothing  - SUBJECT TO COOPERATIVE PURCHASING,8405,63399
+A 16,Stockings (Anti-embolism/compression only),6510,A16
+A 20A,"Joints, Hip, Knee and Accessories",6510,A20A
+A 23A,Hot Water Bags,6510,A23A
+A 25A,Splints,6510,A25A
+A 25C,Immobiliers/Soft Goods,6510,A25C
+A 25E,Orthopedic/Surgical Supports,6510,A25E
+A 25F,Cervical Collars,6510,A25F
+A 3A,Plain Bandages/Gauzes,6510,A3A
+561210FAC,Complete Facilities Maintenance and Management,R799,561210FAC
+238320,Surface Preparation,R499,238320
+541690E,Energy Consulting Services,R404,541690E
+561210FS,Facilities Support Services,R799,561210FS
+561730,Grounds Maintenance,S208,561730
+334512,Total Solution Support Products for Facilities Management Systems,6350,334512
+541513,Smart Buildings Systems Integration,J035,541513
+561210SB,Smart Buildings Systems Integrator,J035,561210SB
+811310MR,Machine and Equipment Maintenance Repair,7310,811310MR
+322291,Restroom Products,8540,322291
+326199,Waste and Recycling Containers and Receptacles - Outdoor and Indoor Use,7240,326199
+332321,"Doors, Windows, Skylights, Panels, and Shutters",5640,332321
+339994,Hand Floor Cleaning Equipment,7920,339994
+333318F,Floor Care Cleaning and Equipment,7910,333318F
+339113G,Gloves,8465,339113G
+311423,Non Perishable foods,7220,311423
+333241,Food Preparation Equipment,7320,333241
+335220,Sanitation and Warewashing Equipment,3910,335220
+336999,Food Center Concepts,7310,336999
+332215T,Cooking Utensils,7340,332215T
+333415REM,Refrigeration Equipment,4110,333415REM
+238160,Roofing Products and Services Solutions,5650,238160
+321991,"Mobile Homes, Travel Trailers ",2330,321991
+332311,Above Ground Storage Tanks/Systems,5430,332311
+332312,Temporary and Permanent Structures,5420,332312
+332311P,Pre-Engineered and Prefabricated Buildings and Structures for Storage Solutions,5410,332311P
+532490P,Lease/Rental of Pre-Engineered/Prefabricated Buildings and Structures,5410,532490P
+339930,"Doll, Toy and Game Manufacturing",7820,339930
+713940,Fitness Center Management Services,M1FB,713940
+812990,Personal Trainer and Aerobic/Cardio Class Leader/Instructor,R497,812990
+339920PARK,Park and Playground Equipment,7830,339920PARK
+339920S,Sporting Goods Equipment and Supplies,7810,339920S
+713940PACK,Packaged Fitness Center,7810,713940PACK
+314110,Carpet Flooring,S214,314110
+321918,Commercial Flooring,7220,321918
+314110SBSA,Carpet Flooring (SBSA),S214,314110SBSA
+321918PF,Portable Flooring Solutions,5520,321918PF
+541614CF,Comprehensive Furniture Management Services,7110,541614CF
+337127CSB,"Chair, Convalescent (SBSA)",7110,337127CSB
+339113H,Healthcare Furniture,7110,339113H
+337121H,"Household, Dormitory & Quarters Furniture",7105,337121H
+337122SBSA,"Household, Dormitory & Quarters Furniture (SBSA)",7105,337122SBSA
+3FURNISH,Commercial Office Furnishings (SBSA),7290,3FURNISH
+33712,"Complete Daycare, Preschool and Classroom Solutions",7110,33712
+337127,Institutional Furniture,7195,337127
+532289,Furniture Rental and Leasing,7105,532289
+332439MLB,Mail Lock Boxes,5140,332439MLB
+337122OSB,"Park, Recreational & Outdoor Furniture (SBSA)",5450,337122OSB
+337127CFSB,Cafeteria and Food Service Furniture (SBSA),7110,337127CFSB
+337127CISB,Correctional Institution Furniture (SBSA),7110,337127CISB
+337127INT,International Furniture Products,7110,337127INT
+337127LFSB,Library Furniture (SBSA),7110,337127LFSB
+337127TLSB,Tables and Lecterns (SBSA),7110,337127TLSB
+337215MSB,Mail Sorting and Distribution Furniture (SBSA),7110,337215MSB
+337215SBSA,Wall Units and Displays SBSA,7105,337215SBSA
+33721RSB,Remanufactured Furniture (SBSA),7110,33721RSB
+33721SBSA,Storage (SBSA),7110,33721SBSA
+33721T,"Training Room, Auditorium and Theater Furniture",7110,33721T
+33721,Office Furniture,7125,33721
+337121P,Packaged Household Dormitory and Quarters Furniture,7105,337121P
+337127P,International Packaged Furniture,7110,337127P
+33721P,Packaged Office Furniture,7110,33721P
+339113P,Packaged Healthcare Furniture,7110,339113P
+339950,Signs,9905,339950
+561611,HR Support: Pre Employment Background Investigations,R799,561611
+541214HR,Compensation and Benefits,R710,541214HR
+54161,Agency Human Capital Evaluation,R408,54161
+56131,Talent Acquisition,R431,56131
+524292,Separation and Retirement,R431,524292
+541611W,Workforce Analytics and Employee Records,R431,541611W
+541612EPM,Employee Performance Management,R710,541612EPM
+541612ER,Employee Relations,R418,541612ER
+541612HC,"Agency Human Capital Strategy, Policy and Operations",R799,541612HC
+541612LR,Labor Relations,R418,541612LR
+541612OPM,Private Shared Service Center for Core HR Services,R799,541612OPM
+541612PSSC,Private Shared Service Center for HR Services,R799,541612PSSC
+561EEO,EEO Services,R499,561EEO
+611430TD,Talent Development,R408,611430TD
+624SS,"Social Services, Professional Counseling and Veterans' Readjustment and Behavioral Health Services",R799,624SS
+561320SBSA,Temporary Staffing (SBSA),R699,561320SBSA
+325611,Cleaning Products,7930,325611
+325612,"Disinfectants, Sterilants and Deodorizers",7930,325612
+326220,"Hoses, Valves, Fittings, Nozzles, Couplings and Related Accessories",4210,326220
+339999S,Safety Zone Products,4240,339999S
+333914,Fuel Management Systems,4930,333914
+332510,"Hardware Manufacturing (Hardware Store, Home Improvement Center, or MRO - Services)",5340,332510
+333112,"Lawn and Garden Equipment, Machinery, Implements, Tools, Products and Accessories",3750,333112
+532310,Rental and Leasing of Hardware Store Products,W099,532310
+332510C,"Hardware Store, Home Improvement Center, Industrial or General Supply Store, or Industrial Maintenance Repair and Operations
+(MRO) Distributor - Catalog ",5120,332510C
+332510S,"Hardware Store, Home Improvement Center, Industrial or General Supply Store, or Industrial Maintenance Repair and Operations (MRO) Distributor - Store Front",5120,332510S
+333TOOL,"Tools (Powered and Non-Powered), Tool Kits, Tool Boxes and Accessories",5110,333TOOL
+33512,Energy-Efficient Lighting and Sustainable Energy Solutions,6210,33512
+314120,Lodging and Hospitality Supplies and Services,7230,314120
+321920,"Pallets, Plastic and Wood",3210,321920
+324110,Propane,6830,324110
+324191,"Commercial Coatings, Removers, Adhesives, Sealants and Lubricants, Petroleum and Waxes",8010,324191
+325320,Pest and Animal Control Products & Services,6840,325320
+325998,Chemical Additives,6850,325998
+327910,Abrasives and Blasters,5345,327910
+332913,Plumbing Products and Bathroom Fixture Solutions,4510,332913
+333120,Street Repair and Cleaning Equipment and Attachments,3825,333120
+333414,Water Heaters,4510,333414
+333912,Air Compressors and Pressure Cleaners,4310,333912
+333922,Warehouse Equipment Supplies,3960,333922
+335911,Batteries,6350,335911
+335999,Power Distribution Equipment,6260,335999
+532412,Leased Equipment and Accessories,W038,532412
+325998W,Water Treatment Products and Systems,4630,325998W
+331315A,Aluminum Sheets,8135,331315A
+332999BMS,Building Materials and Services,5680,332999BMS
+332999P,"Spill Containment Units, Containment Pallets, Non-Wooden Pallets",3990,332999P
+3331SBSA,Clearing Equipment (SBSA),2320,3331SBSA
+333415HVAC,"Heating, Ventilation, and Air Conditioning (HVAC)",4130,333415HVAC
+335220D,Domestic Appliances,4120,335220D
+335220E,Export Appliances,4120,335220E
+333923S,"Scaffolding, Work, and Service Platforms",5440,333923S
+811310,Maintenance and Repair Shop Equipment,4940,811310
+333921,Vehicle Material Handling Equipment,4910,333921
+333923,Vehicular Cranes and Attachments,3810,333923
+333924,Utility Trucks and Tractors,3930,333924
+322220,"Performance-Oriented Packaging (POP), plastic over pack, and hazardous material packaging",8135,322220
+3PACK,Packaging Materials,8105,3PACK
+333997,Scales and Balances,6670,333997
+54151ECOM,Electronic Commerce and Subscription Services,D304,54151ECOM
+33411,Purchasing of new electronic equipment,7010,33411
+811212,"Maintenance of Equipment, Repair Services and/or Repair/Spare Parts",J070,811212
+33411REF,Purchase of Used or Refurbished Equipment,7010,33411REF
+532420L,Leasing of new electronic equipment,W070,532420L
+532420R,Daily/Short Term Rental of IT Equipment,W070,532420R
+54151HACS,Highly Adaptive Cybersecurity Services (HACS),D399,54151HACS
+54151HEAL,Health Information Technology Services,D399,54151HEAL
+54151S,Information Technology Professional Services,D399,54151S
+54151,Software Maintenance Services,J070,54151
+511210,Software Licenses,7030,511210
+561422,Automated Contact Center Solutions (ACCS),D399,561422
+518210C,Cloud and Cloud-Related IT Professional Services,D305,518210C
+541370GEO,Earth Observation Solutions,D399,541370GEO
+541519CDM,Continuous Diagnostics and Mitigation (CDM) Tools,D399,541519CDM
+541519ICAM,"Identity, Credentialing and Access Management (ICAM)",D399,541519ICAM
+541519PIV,Homeland Security Presidential Directive 12 Product and Service Components,D399,541519PIV
+541519PKI,Public Key Infrastructure (PKI) Shared Service Providers (PKI SSP) Program,D399,541519PKI
+611420,Information Technology Training,U012,611420
+517312,Wireless Mobility Solutions -,D304,517312
+517410,Commercial Satellite Communications Solutions (COMSATCOM) ,D304,517410
+3152,Clothing,8415,3152
+316210,Footwear,8430,316210
+339113PA,Protective Apparel,8470,339113PA
+315210,Uniforms,8415,315210
+339999ASB,Awards (SBSA),8455,339999ASB
+238910,Installation and Site Preparation Services,N099,238910
+ANCILLARY,Ancillary Supplies and Services,0000,ANCILLARY
+NEW,Introduction of New Supplies and Services,0000,NEW
+OLM,Order-Level Materials (OLM),0000,OLM
+ANCRA,Ancillary Repair and Alterations,Z2AA,ANCRA
+339999F,"Flags, Banners, Pennants, and Related Products",9905,339999F
+339992,Sounds of Music,7710,339992
+335210,Personal Care Items,7290,335210
+334310,Professional Audio/Video Products,3610,334310
+334290OS,Overseas (International) Audio/Visual Products,5820,334290OS
+334511T,Telecommunications Equipment,5820,334511T
+541990AV,Professional Audio/Video Services,R499,541990AV
+561439,Document Production On-site and Off-site Services,R799,561439
+561990,Document Destruction Services,R799,561990
+518210DC,Document Conversion Services,R799,518210DC
+541611LIT,Litigation Support Services,R799,541611LIT
+561499M,"Mail Management, Systems, Processing Equipment and Related Solutions",R604,561499M
+511130,Books and Pamphlets,7610,511130
+5191M,"Entertainment, News and Library Media",7690,5191M
+511120,"Periodicals, Subscriptions, Online Book Selling and Lending Library Services",7630,511120
+561410,"Editorial, Publishing, and Library Media Services",R499,561410
+811212R,Repair of Government-Owned Equipment (for equipment NOT under Maintenance Service Agreement),3610,811212R
+811212SA,Maintenance Service Agreement For Office Equipment,J099,811212SA
+541611O,Office Management Needs Assessment and Analysis Services,R799,541611O
+541614OR,Office Relocation and Reconfiguration,N071,541614OR
+561499N,Network Connectivity Support Services,R799,561499N
+333318,Dictating and Transcribing Machines and Systems,T016,333318
+339940,Office Products,3610,339940
+333318SBSA,Office Security Equipment and IT Products (Small Business Set Aside),3610,333318SBSA
+339940OS4,OS4 Office Products and Supplies,7510,339940OS4
+339940OVER,OS4 Overseas Office Products and Supplies,7510,339940OVER
+339940SVC,Office Supply Support Services,7510,339940SVC
+325992,"Micro-photographic Film, Paper, Chemical Preparation and Equipment",6750,325992
+333244,Post Copying/Finishing Equipment and Supplies,3610,333244
+333249,3D Printing Solutions and Additive Manufacturing Solutions,3611,333249
+333316C,Copiers and Digital Duplicating Equipment,3610,333316C
+333316CPC,"Cost-per-Copy Plan for Copiers (to include Analog, Digital, Multifunctional and Engineer Copiers)",3610,333316CPC
+333316F,"Flat Rate Monthly Fee for Copiers (to include Analog, Digital, Multifunctional and Engineer Copiers)",3610,333316F
+333316M,"Multi-Media Readers, Reader-Printers and Systems",3610,333316M
+333316OS,Overseas Copiers and Supplies,3610,333316OS
+333316P,Photographic Supplies,6720,333316P
+532420C,Copier Rental Solutions,3610,532420C
+532420LC,Operating Lease Plan For Copiers,W074,532420LC
+532420LT,LTOP & Operating Lease Plan for all Non-Copier Office Machinery,W074,532420LT
+532420LTOP,Lease to Ownership Plans (LTOP) Copier,W074,532420LTOP
+541611MPS,Managed Print Services,3610,541611MPS
+493110RM,Physical Records Management Services,R616,493110RM
+518210ERM,Electronics Records Management Solutions,R617,518210ERM
+541611,"Management and Financial Consulting, Acquisition and Grants Management Support, and Business Program and Project Management Services",R408,541611
+561450,Business Information Services (BIS),R704,561450
+562112,Hazardous Waste Disposal Services,F999,562112
+562910REM,Environmental Remediation Services,F999,562910REM
+541620,Environmental Consulting Services,F999,541620
+522310," Financial Advising, Loan Servicing and Asset Management Services",R704,522310
+531210,Financial Asset Resolution Services,R704,531210
+541211,Auditing Services,R704,541211
+541214,Payroll Services,R704,541214
+541219,Budget and Financial Management Services,R703,541219
+561440,Debt Collection Services,R705,561440
+541990IPS,Data Breach Response and Identity Protection,R704,541990IPS
+541990RISK,Risk Assessment and Mitigation Services,R704,541990RISK
+541930,Translation and Interpretation Services,3610,541930
+611630,Linguistic Training and Education,R608,611630
+541110,Professional Legal Services,R704,541110
+541614,"Deployment, Distribution and Transportation Logistics Services:",R706,541614
+541614SVC,Supply and Value Chain Management,V122,541614SVC
+512110,Video/Film Production,T006,512110
+541430,Graphic Design Services,R499,541430
+541511,Web Based Marketing,D304,541511
+541613,Marketing Consulting Services,R701,541613
+541810,Advertising Services,R701,541810
+541820,Public Relations Services,R708,541820
+541850,Exhibit Design and Advertising Services,Y1PB,541850
+541910,Marketing Research and Analysis,R422,541910
+541922,Commercial Photography Services,T010,541922
+561920,"Conference, Meeting, Event and Trade Show Planning Services",R499,561920
+323111SBSA,Photographic Services and Solutions,6720,323111SBSA
+541810ODC,Other Direct Costs for Marketing and Public Relations Services,R701,541810ODC
+541330ENG,Engineering Services,R414,541330ENG
+541420,Engineering System Design and Integration Services,R425,541420
+541690,Integrated Logistics Support,R425,541690
+541715,Engineering Research and Development and Strategic Planning,R425,541715
+541370GIS,Geographic Information Systems (GIS) Services,F999,541370GIS
+541990TAD,Technical/Application Development Support (TADS),R499,541990TAD
+611430,Professional and Management Development Training,R704,611430
+611710,Educational Support Services,U099,611710
+333318TDTM,Off-the-Shelf Training Devices and Training Materials,6910,333318TDTM
+611TRAINAW,"Defense Acquisition Workforce Improvement Act (DAWIA) and Federal Acquisition Certification in Contracting (FAC-C) Professional Development Training for Acquisition Workforce Personnel
+
+",R410,611TRAINAW
+611512,Flight Training,U006,611512
+333999,Animal Caging Equipment,6640,333999
+333314,Microscopes,6650,333314
+333415,Laboratory Refrigerators And Freezers,6640,333415
+334513,"Water, Air, Soil and Seismic Measuring",6655,334513
+334515,"Diagnostic, Measuring and Testing Equipment",4910,334515
+334516,Analytical Instruments,6630,334516
+334519ENV,Environmental Measuring Instruments,6660,334519ENV
+339113LAB,Laboratory Equipment and Products,6640,339113LAB
+532490L,"Laboratory Maintenance, Repair, Leasing and Warranties",J059,532490L
+339112,Breathing Air Equipment and Related Items,8405,339112
+339113R,Medical/Rescue and Patient Transportation Products,6515,339113R
+532490ESA,Equipment Service Agreements,J059,532490ESA
+611430TTS,Technical Training And Support (TTS),R499,611430TTS
+334511,"Search, Detection, Navigation, Guidance, Aeronautical and Nautical Systems and Instruments
+",6610,334511
+541380,Testing Laboratory Services,R499,541380
+561621H,Harbor/Waterfront Security Products and Services and Professional Marine Security Services,1940,561621H
+332216,"Law Enforcement, Firefighting and Rescue Tools, Equipment and Accessories",5120,332216
+332994,Burning Equipment,1095,332994
+332999,Law Enforcement Personal Equipment,8465,332999
+334220,"Surveillance Systems, Wearable Body Cameras, and Vehicular Video",5820,334220
+334519,Bomb and Hazardous Material Disposal; Metal and Bomb Detection,3690,334519
+336320,Vehicle Signal and Restraint System,6350,336320
+336413,Aircraft Armoring and Helicopter Equipment,2540,336413
+336992,Non-Tactical Armored Vehicles and Vehicle Armoring Services,2540,336992
+337215,Firearm Care,7125,337215
+339920,Target Systems/Target Range Accessories,6920,339920
+332312F,Flood Control,4210,332312F
+333314NV,Night Vision Equipment -,5855,333314NV
+3FIRE,Fire Management Equipment,4210,3FIRE
+332999S,"Safes, Vault Systems, and Security Products",7110,332999S
+812910,"Canine Training, Handling, and Caging Products and Services",8465,812910
+561612,Protective Service Occupations ,S206,561612
+541330L,"Security System Integration, Design, Management, and Life Cycle Support",R408,541330L
+541330SEC,"Security System Integration, Design, Management, and Life Cycle Support",R408,541330SEC
+541990L,Professional Law Enforcement Services ,R425,541990L
+611430ST,Security Training,4230,611430ST
+334118,Personal & Document Identification Systems,7050,334118
+334290,Security and Detection Systems,6350,334290
+334290L,Physical Access Control Systems (PACS) - Legacy SIN,6350,334290L
+334290PACS,Physical Access Control Systems (PACS) - FIPS 201,6350,334290PACS
+325412,Criminal Investigative Equipment and Supplies,6550,325412
+339999E,Evidence Collection and Investigative Equipment and Supplies,7520,339999E
+81111,"Automotive Maintenance, Repair and Body Services",J023,81111
+811122,Automotive Windshield and Paint Repair,J023,811122
+336611,Marine Craft Repairing,2805,336611
+336612,Marine Craft,1940,336612
+3361,Law Enforcement and Fire Fighting Vehicles and Attachments,4240,3361
+3363,Upfitting of Government-owned Emergency Response Vehicles to Provide Turn-key Solutions,N042,3363
+33611,Purchase or Lease of Gas or Electric Low Speed Vehicles,W023,33611
+326211,Tires - New,2610,326211
+326212,Tires - Retreaded,2610,326212
+336211,Tank Trucks,2320,336211
+336211V,Vocational Bodies and Attachments,2320,336211V
+336212,Trailers and Attachments,2330,336212
+336350,Remanufactured Automotive Components,2520,336350
+336612R,Recreational Watercraft,1990,336612R
+336991,Wheel and Track Vehicles,2340,336991
+488190,"Aircraft Components, Maintenance, Repair Services, Extended Warranties, And Maintenance Agreements",J059,488190
+532112,"Leasing of Passenger Cars, SUVs, Vans, and Light Trucks",W023,532112
+532120,Leased Heavy Duty Vehicles,W042,532120
+333318T,Wheel & Tire Equipment,4910,333318T
+3361E,Electric and Autonomous Vehicles and Accessories,2310,3361E
+3361V,Vocational Vehicles,2540,3361V
+3363P,Spare Components and Vehicle Accessories,2590,3363P
+492110,Package Delivery,V111,492110
+492210SB,Local Courier Delivery Services (SBSA),V112,492210SB
+332439,"Shipping, Cargo, Freight, and Storage Containers",8145,332439
+334419,Unique Identification (UID) / Radio Frequency Identification (RFID,5985,334419
+561910,Packaging Services,8135,561910
+485,Ground Transportation,V122,485
+532111,"Automotive equipment rental and leasing, Rental Supplemental Vehicle Program (RSVP)",V122,532111
+481211B,Air Charter Services - Brokers,V221,481211B
+481211O,Air Charter Services - Owner Operated,V221,481211O
+531,Employee Relocation Solution,V301,531
+541511T,Employee Relocation Management Software,V301,541511T
+531110,Long Term Lodging,V231,531110
+561599L,Lodging Negotiations and Management Services,V999,561599L
+561510,Travel Agent Services,V302,561510
+561599,Travel Consulting Services,V999,561599
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

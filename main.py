@@ -59,7 +59,7 @@ def mapping(df):
         df = df.rename(columns={'PART_NUMBER': 'VENDPART', 'PART_NAME':'PRODNAME', 'PSC':'PSC_CODE',
                            'Contract Price with IFF': 'GSAPRICE','UNIT_OF_ISSUE':'ISSCODE','ITEMS_PER_UOI':'QTY_UNIT',
                            'OEM_NUMBER':'MFGPART','OEM_CAGE':'OEM_CAGE','OEM_NAME':'MFGNAME','DESCRIPTION':'PRODDESC',
-                           'DAYS_ARO':'P_DELIV','UPC':'UPC','HAZMAT':'HAZMAT','TPRSTART':'TPRSTART','TPRSTOP':'TPRSTOP',
+                           'DAYS_ARO':'P_DELIV','LONG_DESCRIPTION':'LONG_DESCRIPTION','UPC':'UPC','HAZMAT':'HAZMAT','TPRSTART':'TPRSTART','TPRSTOP':'TPRSTOP',
                            'TEMPRICE':'TEMPRICE', 'SHIPPING_STANDARD':'SHIPPING','SHIPPING_EXPEDITED':'SHIPPING_EXPEDITED',
                            'SHIPPING_NEXTDAY':'SHIPPING_NEXTDAY',
                            'Environmentally Preferred Indicator': 'Environmentally Preferred Indicator',
@@ -74,7 +74,7 @@ def mapping(df):
                            'Quantity per Unit of Issue': 'QTY_UNIT',
                            'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'OEM NAME': 'MFGNAME',
                            'PRODESC': 'PRODDESC',
-                           'ARO': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'ARO': 'P_DELIV', 'LONG_DESCRIPTION':'LONG_DESCRIPTION','UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
                            'TPRSTOP': 'TPRSTOP',
                            'TEMPRICE': 'TEMPRICE', 'SHIPPING_STANDARD': 'SHIPPING',
                            'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
@@ -91,7 +91,7 @@ def mapping(df):
                            'Quantity per Unit of Issue': 'QTY_UNIT',
                            'OEM NUMBER': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'OEM NAME': 'MFGNAME',
                            'Product Description': 'PRODDESC',
-                           'LEAD TIME DAYS': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'LEAD TIME DAYS': 'P_DELIV', 'LONG_DESCRIPTION':'LONG_DESCRIPTION','UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
                            'TPRSTOP': 'TPRSTOP',
                            'TEMPRICE': 'TEMPRICE', 'SHIPPING_STANDARD': 'SHIPPING',
                            'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
@@ -108,7 +108,7 @@ def mapping(df):
                            'QTY_UNIT': 'QTY_UNIT',
                            'MANUFACTURER PART NUMBER': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER': 'MFGNAME',
                            'PRODUCT DESCRIPTION': 'PRODDESC',
-                           'P_DELIV': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'P_DELIV': 'P_DELIV', 'LONG_DESCRIPTION':'LONG_DESCRIPTION','UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
                            'TPRSTOP': 'TPRSTOP',
                            'TEMPRICE': 'TEMPRICE', 'SHIPPING_STANDARD': 'SHIPPING',
                            'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
@@ -125,7 +125,7 @@ def mapping(df):
                            'QTY_UNIT': 'QTY_UNIT',
                            'Manufacturer Part #': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER NAME': 'MFGNAME',
                            'PRODDESC': 'PRODDESC',
-                           'Lead Time Days': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'Lead Time Days': 'P_DELIV', 'LONG_DESCRIPTION':'LONG_DESCRIPTION','UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
                            'TPRSTOP': 'TPRSTOP',
                            'TEMPRICE': 'TEMPRICE', 'SHIPPING': 'SHIPPING',
                            'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
@@ -142,7 +142,7 @@ def mapping(df):
                            'QTY_UNIT': 'QTY_UNIT',
                            'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'Manufacturer Name': 'MFGNAME',
                            'PRODDESC': 'PRODDESC',
-                           'Lead Time Days': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'Lead Time Days': 'P_DELIV', 'LONG_DESCRIPTION':'LONG_DESCRIPTION','UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
                            'TPRSTOP': 'TPRSTOP',
                            'TEMPRICE': 'TEMPRICE', 'SHIPPING': 'SHIPPING',
                            'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
@@ -159,7 +159,7 @@ def mapping(df):
                            'QTY_UNIT': 'QTY_UNIT',
                            'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER OR BRAND NAME': 'MFGNAME',
                            'PRODDESC': 'PRODDESC',
-                           'Lead Time Days': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'Lead Time Days': 'P_DELIV', 'LONG_DESCRIPTION':'LONG_DESCRIPTION','UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
                            'TPRSTOP': 'TPRSTOP',
                            'TEMPRICE': 'TEMPRICE', 'SHIPPING': 'SHIPPING',
                            'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
@@ -176,7 +176,7 @@ def mapping(df):
                            'QTY_UNIT': 'QTY_UNIT',
                            'MFGPART': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER OR BRAND NAME': 'MFGNAME',
                            'PRODDESC': 'PRODDESC',
-                           'Lead Time Days': 'P_DELIV', 'UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
+                           'Lead Time Days': 'P_DELIV', 'LONG_DESCRIPTION':'LONG_DESCRIPTION','UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
                            'TPRSTOP': 'TPRSTOP',
                            'TEMPRICE': 'TEMPRICE', 'SHIPPING': 'SHIPPING',
                            'SHIPPING_EXPEDITED': 'SHIPPING_EXPEDITED',
@@ -197,7 +197,13 @@ def mapping(df):
         # df.rename(columns={'alias': 'FNAME', 'contact': 'EMAIL'}, inplace=True)
         # df.rename(columns={'initial name': 'FNAME', 'emailid': 'EMAIL'}, inplace=True)
 initial_df = mapping(data)
-final_df = initial_df.reindex(['MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','PRODDESC','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','Environmentally Preferred Indicator','Environmentally Preferred Justifying Comment','Energy Star Indicator','Energy Star Justifying Comment','Made in the USA Indicator','Made in the USA Justifying Comment','Characteristic Information'],axis=1)
+final_df = initial_df.reindex(['MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','LONG_DESCRIPTION','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','Environmentally Preferred Indicator','Environmentally Preferred Justifying Comment','Energy Star Indicator','Energy Star Justifying Comment','Made in the USA Indicator','Made in the USA Justifying Comment','Characteristic Information'],axis=1)
+
+df2 = pd.read_csv('sin_psc_table.csv',delimiter=',')
+initial_df['SIN'] = initial_df['SIN'].astype(str)
+initial_df['SIN'] = initial_df['SIN'].str.replace(' ','')
+df2dict = df2.set_index(['SIN'])['PSC_CODE'].squeeze().to_dict()
+final_df['PSC_CODE'] = final_df['PSC_CODE'].fillna(initial_df['SIN'].map(df2dict))
 
 
 final_df.loc[final_df['UPC'].astype(str).str.len() >12, 'UPC']= ''
@@ -211,11 +217,12 @@ final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('\\','-SLASH-'
 final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace(' ','-')
 final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('_','-')
 final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('.','-')
-final_df['PSC_CODE'] = final_df['PSC_CODE'].astype(str).str.replace('','0')
+final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('"','')
 final_df['GSAPRICE'] = final_df['GSAPRICE'].round(2)
 final_df['GSAPRICE'] = final_df['GSAPRICE'].astype(str).str.replace('$','')
 final_df['GSAPRICE'] = final_df['GSAPRICE'].astype(str).str.replace(',','')
-
+final_df['VENDPART'] = final_df['VENDPART'].fillna(final_df['MFGPART'])
+final_df['LONG_DESCRIPTION'] = final_df['PRODDESC'].map(str)+initial_df['PRODDESC2'].map(str)+initial_df['PRODDESC3'].map(str)+initial_df['PRODDESC4'].map(str)
 #
 # # final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
 #
