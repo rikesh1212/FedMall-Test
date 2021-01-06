@@ -51,7 +51,7 @@ print("Cage Code:",cc)
 print("Contract Number:",cn)
 
 
-data = pd.read_csv(input_file, delimiter = ',',encoding= 'unicode_escape')
+data = pd.read_csv(input_file, delimiter = ',')
 
 # final_df = df.reindex(['CONTNUM','MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','PRODDESC','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','EPI','EPJC','ESI','ESJC','USAI','USJC','CI'],axis=1)
 def mapping(df):
@@ -197,6 +197,7 @@ def mapping(df):
         # df.rename(columns={'alias': 'FNAME', 'contact': 'EMAIL'}, inplace=True)
         # df.rename(columns={'initial name': 'FNAME', 'emailid': 'EMAIL'}, inplace=True)
 initial_df = mapping(data)
+
 final_df = initial_df.reindex(['MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','LONG_DESCRIPTION','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','Environmentally Preferred Indicator','Environmentally Preferred Justifying Comment','Energy Star Indicator','Energy Star Justifying Comment','Made in the USA Indicator','Made in the USA Justifying Comment','Characteristic Information'],axis=1)
 
 df2 = pd.read_csv('sin_psc_table.csv',delimiter=',')
@@ -222,7 +223,10 @@ final_df['GSAPRICE'] = final_df['GSAPRICE'].round(2)
 final_df['GSAPRICE'] = final_df['GSAPRICE'].astype(str).str.replace('$','')
 final_df['GSAPRICE'] = final_df['GSAPRICE'].astype(str).str.replace(',','')
 final_df['VENDPART'] = final_df['VENDPART'].fillna(final_df['MFGPART'])
-final_df['LONG_DESCRIPTION'] = final_df['PRODDESC'].map(str)+initial_df['PRODDESC2'].map(str)+initial_df['PRODDESC3'].map(str)+initial_df['PRODDESC4'].map(str)
+final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('   ',' ')
+final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('  ',' ')
+final_df['LONG_DESCRIPTION'] = final_df['PRODDESC'].fillna('')
+final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace('   ',' ')
 #
 # # final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
 #
