@@ -206,7 +206,8 @@ initial_df['SIN'] = initial_df['SIN'].str.replace(' ','')
 df2dict = df2.set_index(['SIN'])['PSC_CODE'].squeeze().to_dict()
 final_df['PSC_CODE'] = final_df['PSC_CODE'].fillna(initial_df['SIN'].map(df2dict))
 
-
+final_df['P_DELIV'] = final_df['P_DELIV'].fillna('5')
+final_df['ISSCODE'] = final_df['ISSCODE'].fillna('EA')
 final_df.loc[final_df['UPC'].astype(str).str.len() >12, 'UPC']= ''
 final_df.loc[final_df['TEMPRICE'] == 0,'TEMPRICE']=''
 final_df['QTY_UNIT'] = final_df['QTY_UNIT'].fillna('0')
@@ -227,6 +228,17 @@ final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('   ',' ')
 final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('  ',' ')
 final_df['LONG_DESCRIPTION'] = final_df['PRODDESC'].fillna('')
 final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace('   ',' ')
+final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('#','-')
+final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('[','-')
+final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace(']','-')
+final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('[','-')
+final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('ï¿½','-')
+final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace('#','-')
+final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace('[','-')
+final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace(']','-')
+final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace('[','-')
+final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace('ï¿½','-')
+
 #
 # # final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
 #
