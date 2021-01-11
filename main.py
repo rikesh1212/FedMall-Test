@@ -238,6 +238,41 @@ final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.repl
 final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace(']','-')
 final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace('[','-')
 final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace('ï¿½','-')
+log1_df = initial_df.reindex(['PART_NAME','OEM_NAME','OEM_NUMBER','NEW_OEM_NUMBER','PART_NUMBER','NEW_PART_NUMBER'],axis= 1)
+
+log1_df['PART_NAME'] = final_df['PRODNAME']
+log1_df['OEM_NAME'] = final_df['MFGNAME']
+log1_df['OEM_NUMBER'] = initial_df['VENDPART']
+log1_df['NEW_OEM_NUMBER'] = final_df['VENDPART']
+log1_df['PART_NUMBER'] = initial_df['MFGPART']
+log1_df['NEW_PART_NUMBER'] = final_df['MFGPART']
+
+log2_df = initial_df.loc[initial_df['UPC'].astype(str).str.len() >12 ]
+log2_df = initial_df.reindex(['PART_NAME','OEM_NAME','OEM_NUMBER','NEW_OEM_NUMBER','PART_NUMBER','NEW_PART_NUMBER','UPC','COMMENT'],axis= 1)
+log2_df['PART_NAME'] = final_df['PRODNAME']
+log2_df['OEM_NAME'] = final_df['MFGNAME']
+log2_df['OEM_NUMBER'] = initial_df['VENDPART']
+log2_df['NEW_OEM_NUMBER'] = final_df['VENDPART']
+log2_df['PART_NUMBER'] = initial_df['MFGPART']
+log2_df['NEW_PART_NUMBER'] = final_df['MFGPART']
+log2_df['COMMENT'] = log2_df['COMMENT'].fillna('toolong')
+
+log3_df = initial_df.reindex(['PART_NUMBER','PART_NAME','OEM_NAME','ORIGINAL_PRICE','DISCOUNT_PRICE'], axis=1)
+log3_df['PART_NUMBER'] = final_df['MFGPART']
+log3_df['PART_NAME'] = final_df['PRODNAME']
+log3_df['OEM_NAME']= final_df['MFGNAME']
+log3_df['ORIGINAL_PRICE'] = final_df['GSAPRICE']
+log3_df['DISCOUNT_PRICE'] = final_df['GSAPRICE']
+
+log4_df = final_df.set_axis(fed_headers[0:27],axis=1)
+log4_df = log4_df.loc[initial_df['PSC_CODE']=='']
+
+
+log5_df = final_df.set_axis(fed_headers[0:27],axis=1)
+log5_df = log5_df.loc[initial_df['SIN']=='']
+
+
+
 
 #
 # # final_df = df.iloc[:,[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]]
@@ -250,6 +285,11 @@ except OSError:
     pass
 path0 = os.path.join(dest0,cc+'.csv' )
 final_df.to_csv(path0,index = False)
+log1_df.to_csv('logschanged1.csv',index = False)
+log2_df.to_csv('logschanged2.csv',index = False)
+log3_df.to_csv('logschanged3.csv',index = False)
+log4_df.to_csv('logschanged4.csv',index = False)
+log5_df.to_csv('logschanged5.csv',index = False)
 # path0 = cc+'.csv'
 
 # file conversion from input file to output file
