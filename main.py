@@ -197,11 +197,12 @@ def mapping(df):
         # df.rename(columns={'alias': 'FNAME', 'contact': 'EMAIL'}, inplace=True)
         # df.rename(columns={'initial name': 'FNAME', 'emailid': 'EMAIL'}, inplace=True)
 first_df= mapping(data)
-initial_df = first_df.reindex(['SIN','VENDPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','MFGPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','LONG_DESCRIPTION','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','Environmentally Preferred Indicator','Environmentally Preferred Justifying Comment','Energy Star Indicator','Energy Star Justifying Comment','Made in the USA Indicator','Made in the USA Justifying Comment','Characteristic Information'],axis=1)
+initial_df = first_df.reindex(['SIN','VENDPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','MFGPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','LONG_DESCRIPTION','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','Environmentally Preferred Indicator','Environmentally Preferred Justifying Comment','Energy Star Indicator','Energy Star Justifying Comment','Made in the USA Indicator','Made in the USA Justifying Comment','Characteristic Information','IMAGE_NAME'],axis=1)
 
 final_df = initial_df.reindex(['VENDPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','MFGPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','LONG_DESCRIPTION','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','Environmentally Preferred Indicator','Environmentally Preferred Justifying Comment','Energy Star Indicator','Energy Star Justifying Comment','Made in the USA Indicator','Made in the USA Justifying Comment','Characteristic Information'],axis=1)
 
 df2 = pd.read_csv('sin_psc_table.csv',delimiter=',')
+original_1 = final_df['VENDPART'].copy()
 initial_df['SIN'] = initial_df['SIN'].astype(str)
 initial_df['SIN'] = initial_df['SIN'].str.replace(' ','')
 df2dict = df2.set_index(['SIN'])['PSC_CODE'].squeeze().to_dict()
@@ -247,10 +248,11 @@ log1_df = initial_df.reindex(['PART_NAME','OEM_NAME','OEM_NUMBER','NEW_OEM_NUMBE
 
 log1_df['PART_NAME'] = final_df['PRODNAME']
 log1_df['OEM_NAME'] = final_df['MFGNAME']
-log1_df['OEM_NUMBER'] = initial_df['MFGPART']
+log1_df['OEM_NUMBER'] = final_df['MFGPART']
 log1_df['NEW_OEM_NUMBER'] = final_df['MFGPART']
 log1_df['PART_NUMBER'] = initial_df['VENDPART']
 log1_df['NEW_PART_NUMBER'] = final_df['VENDPART']
+log1_df = log1_df[final_df['VENDPART']!= original_1].copy()
 
 log2_df = initial_df.loc[initial_df['UPC'].astype(str).str.len() >12 ]
 log2_df = initial_df.reindex(['PART_NAME','OEM_NAME','OEM_NUMBER','NEW_OEM_NUMBER','PART_NUMBER','NEW_PART_NUMBER','UPC','COMMENT'],axis= 1)
@@ -270,11 +272,19 @@ log3_df['ORIGINAL_PRICE'] = final_df['GSAPRICE']
 log3_df['DISCOUNT_PRICE'] = final_df['GSAPRICE']
 
 log4_df = final_df.set_axis(fed_headers[0:27],axis=1)
-log4_df = log4_df.loc[initial_df['PSC_CODE']=='']
+initial_df['PSC_CODE'] = initial_df['PSC_CODE'].fillna('')
+log4_df = log4_df.loc[(initial_df['PSC_CODE']=='')]
 
 
 log5_df = final_df.set_axis(fed_headers[0:27],axis=1)
 log5_df = log5_df.loc[initial_df['SIN']=='']
+
+
+initial_df['IMAGE_NAME'] = initial_df['IMAGE_NAME'].fillna('')
+log6_df = initial_df.reindex(['IMAGE_NAME','VENDPART'],axis=1)
+log6_df['VENDPART'] = final_df['VENDPART']
+log6_df = log6_df.loc[initial_df['IMAGE_NAME']!='']
+
 
 
 
@@ -295,6 +305,7 @@ log2_df.to_csv('logschanged2.csv',index = False)
 log3_df.to_csv('logschanged3.csv',index = False)
 log4_df.to_csv('logschanged4.csv',index = False)
 log5_df.to_csv('logschanged5.csv',index = False)
+log6_df.to_csv('logschanged6.csv',index = False)
 # path0 = cc+'.csv'
 
 # file conversion from input file to output file
