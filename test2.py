@@ -23,11 +23,10 @@ try:
      os.makedirs(dest_dir)
 except OSError:
      pass
-path = os.path.join(dest_dir,'out{:03}.csv' )
+path = os.path.join(dest_dir,'out{:03}.csv'.format(00) )
 
 paths = file_conversion('IPROD_current.csv', path, 10000)
-x = paths[0]
-print(type(x))
+print(paths)
 # base_names = [os.path.basename(path) for path in paths]
 # # for x in range(len(base_names)):
 # #     print (base_names[x])

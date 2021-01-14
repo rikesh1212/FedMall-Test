@@ -196,9 +196,10 @@ def mapping(df):
 
         # df.rename(columns={'alias': 'FNAME', 'contact': 'EMAIL'}, inplace=True)
         # df.rename(columns={'initial name': 'FNAME', 'emailid': 'EMAIL'}, inplace=True)
-initial_df = mapping(data)
+first_df= mapping(data)
+initial_df = first_df.reindex(['SIN','VENDPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','MFGPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','LONG_DESCRIPTION','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','Environmentally Preferred Indicator','Environmentally Preferred Justifying Comment','Energy Star Indicator','Energy Star Justifying Comment','Made in the USA Indicator','Made in the USA Justifying Comment','Characteristic Information'],axis=1)
 
-final_df = initial_df.reindex(['MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','LONG_DESCRIPTION','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','Environmentally Preferred Indicator','Environmentally Preferred Justifying Comment','Energy Star Indicator','Energy Star Justifying Comment','Made in the USA Indicator','Made in the USA Justifying Comment','Characteristic Information'],axis=1)
+final_df = initial_df.reindex(['VENDPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','MFGPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','LONG_DESCRIPTION','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','Environmentally Preferred Indicator','Environmentally Preferred Justifying Comment','Energy Star Indicator','Energy Star Justifying Comment','Made in the USA Indicator','Made in the USA Justifying Comment','Characteristic Information'],axis=1)
 
 df2 = pd.read_csv('sin_psc_table.csv',delimiter=',')
 initial_df['SIN'] = initial_df['SIN'].astype(str)
@@ -212,18 +213,22 @@ final_df.loc[final_df['UPC'].astype(str).str.len() >12, 'UPC']= ''
 final_df.loc[final_df['TEMPRICE'] == 0,'TEMPRICE']=''
 final_df['QTY_UNIT'] = final_df['QTY_UNIT'].fillna('0')
 final_df['QTY_UNIT'] = final_df['QTY_UNIT'].astype(int)
-final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('+','-PLUS')
-final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('/','-SLASH-')
-final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('\\','-SLASH-')
-
-final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace(' ','-')
-final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('_','-')
-final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('.','-')
-final_df['MFGPART'] = final_df['MFGPART'].astype(str).str.replace('"','')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('+','-PLUS')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('/','-SLASH-')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('\\','-SLASH-')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace(' ','-')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('_','-')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('.','-')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('"','')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('(','')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace(')','')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('%','-')
 final_df['GSAPRICE'] = final_df['GSAPRICE'].round(2)
 final_df['GSAPRICE'] = final_df['GSAPRICE'].astype(str).str.replace('$','')
 final_df['GSAPRICE'] = final_df['GSAPRICE'].astype(str).str.replace(',','')
+
 final_df['VENDPART'] = final_df['VENDPART'].fillna(final_df['MFGPART'])
+final_df['MFGPART'] = final_df['MFGPART'].fillna(final_df['VENDPART'])
 final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('   ',' ')
 final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('  ',' ')
 final_df['LONG_DESCRIPTION'] = final_df['PRODDESC'].fillna('')
@@ -242,23 +247,23 @@ log1_df = initial_df.reindex(['PART_NAME','OEM_NAME','OEM_NUMBER','NEW_OEM_NUMBE
 
 log1_df['PART_NAME'] = final_df['PRODNAME']
 log1_df['OEM_NAME'] = final_df['MFGNAME']
-log1_df['OEM_NUMBER'] = initial_df['VENDPART']
-log1_df['NEW_OEM_NUMBER'] = final_df['VENDPART']
-log1_df['PART_NUMBER'] = initial_df['MFGPART']
-log1_df['NEW_PART_NUMBER'] = final_df['MFGPART']
+log1_df['OEM_NUMBER'] = initial_df['MFGPART']
+log1_df['NEW_OEM_NUMBER'] = final_df['MFGPART']
+log1_df['PART_NUMBER'] = initial_df['VENDPART']
+log1_df['NEW_PART_NUMBER'] = final_df['VENDPART']
 
 log2_df = initial_df.loc[initial_df['UPC'].astype(str).str.len() >12 ]
 log2_df = initial_df.reindex(['PART_NAME','OEM_NAME','OEM_NUMBER','NEW_OEM_NUMBER','PART_NUMBER','NEW_PART_NUMBER','UPC','COMMENT'],axis= 1)
 log2_df['PART_NAME'] = final_df['PRODNAME']
 log2_df['OEM_NAME'] = final_df['MFGNAME']
-log2_df['OEM_NUMBER'] = initial_df['VENDPART']
-log2_df['NEW_OEM_NUMBER'] = final_df['VENDPART']
-log2_df['PART_NUMBER'] = initial_df['MFGPART']
-log2_df['NEW_PART_NUMBER'] = final_df['MFGPART']
+log2_df['OEM_NUMBER'] = initial_df['MFGPART']
+log2_df['NEW_OEM_NUMBER'] = final_df['MFGPART']
+log2_df['PART_NUMBER'] = initial_df['VENDPART']
+log2_df['NEW_PART_NUMBER'] = final_df['VENDPART']
 log2_df['COMMENT'] = log2_df['COMMENT'].fillna('toolong')
 
 log3_df = initial_df.reindex(['PART_NUMBER','PART_NAME','OEM_NAME','ORIGINAL_PRICE','DISCOUNT_PRICE'], axis=1)
-log3_df['PART_NUMBER'] = final_df['MFGPART']
+log3_df['PART_NUMBER'] = final_df['VENDPART']
 log3_df['PART_NAME'] = final_df['PRODNAME']
 log3_df['OEM_NAME']= final_df['MFGNAME']
 log3_df['ORIGINAL_PRICE'] = final_df['GSAPRICE']
