@@ -254,8 +254,9 @@ log1_df['PART_NUMBER'] = initial_df['VENDPART']
 log1_df['NEW_PART_NUMBER'] = final_df['VENDPART']
 log1_df = log1_df[final_df['VENDPART']!= original_1].copy()
 
-log2_df = initial_df.loc[initial_df['UPC'].astype(str).str.len() >12 ]
+
 log2_df = initial_df.reindex(['PART_NAME','OEM_NAME','OEM_NUMBER','NEW_OEM_NUMBER','PART_NUMBER','NEW_PART_NUMBER','UPC','COMMENT'],axis= 1)
+log2_df = log2_df.loc[initial_df['UPC'].astype(str).str.len()>12]
 log2_df['PART_NAME'] = final_df['PRODNAME']
 log2_df['OEM_NAME'] = final_df['MFGNAME']
 log2_df['OEM_NUMBER'] = initial_df['MFGPART']
