@@ -2,8 +2,8 @@ import os
 import csv
 from more_itertools import chunked
 import pandas as pd
-
-
+from openpyxl import load_workbook
+import xlrd
 
 
 
@@ -41,17 +41,19 @@ fed_headers = ['Item Master Primary Spec/Item Status Information/Archive',
                'Item Master Primary Spec/Characteristic Information' ]
 # input compulsory arguments
 cc = input("Enter Cage Code \t")
-cn = input("Enter Contract Number \t")
+contract  = input("Enter Contract Number \t")
 input_file = input("Enter input file \t")
 act = input("Enter Action (Update- N/Delete -Y) \t")
+dp = input("Enter Description Addition(Optional) \t")
+dhead = input("Enter dhead(Optional) \t")
 # output_file = input("Enter Output file")
-
+cn = contract.replace('-','')
 # print Cage Code and Contract Number
 print("Cage Code:",cc)
 print("Contract Number:",cn)
 
+data = pd.read_csv(input_file, delimiter = ',', encoding="Latin")
 
-data = pd.read_csv(input_file, delimiter = ',')
 
 # final_df = df.reindex(['CONTNUM','MFGPART','PRODNAME','PSC_CODE','GSAPRICE','ISSCODE','QTY_UNIT','VENDPART','OEM_CAGE','MFGNAME','PRODDESC','P_DELIV','PRODDESC','UPC','HAZMAT','TPRSTART','TPRSTOP','TEMPRICE','SHIPPING_STANDARD','SHIPPING_EXPEDITED','SHIPPING_NEXTDAY','EPI','EPJC','ESI','ESJC','USAI','USJC','CI'],axis=1)
 def mapping(df):
@@ -224,6 +226,10 @@ final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('"','')
 final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('(','')
 final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace(')','')
 final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('%','-')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('[','-')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace(']','-')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace(',','-')
+final_df['VENDPART'] = final_df['VENDPART'].astype(str).str.replace('=','-')
 final_df['GSAPRICE'] = final_df['GSAPRICE'].round(2)
 final_df['GSAPRICE'] = final_df['GSAPRICE'].astype(str).str.replace('$','')
 final_df['GSAPRICE'] = final_df['GSAPRICE'].astype(str).str.replace(',','')
@@ -239,6 +245,7 @@ final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('[','-')
 final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace(']','-')
 final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('[','-')
 final_df['PRODDESC'] = final_df['PRODDESC'].astype(str).str.replace('ï¿½','-')
+final_df['PRODDESC'] = dhead+' '+final_df['PRODDESC']+ ' '+dp
 final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace('#','-')
 final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace('[','-')
 final_df['LONG_DESCRIPTION'] = final_df['LONG_DESCRIPTION'].astype(str).str.replace(']','-')
@@ -300,7 +307,7 @@ try:
 except OSError:
     pass
 path0 = os.path.join(dest0,cc+'.csv' )
-final_df.to_csv(path0,index = False)
+final_df.to_csv(path0,index = False,encoding ='Latin')
 log1_df.to_csv('logschanged1.csv',index = False)
 log2_df.to_csv('logschanged2.csv',index = False)
 log3_df.to_csv('logschanged3.csv',index = False)
@@ -369,7 +376,7 @@ def file_conversion(input_file, output_file_pattern, chunksize, act,cc,cn):
         reader = csv.reader(fin, delimiter=',')
 
         for i, chunk in enumerate(chunked(reader, chunksize)):
-            with open(output_file_pattern.format(i), 'w', newline='') as fout:
+            with open(output_file_pattern.format(i), 'w',encoding ='ascii',errors='ignore', newline='') as fout:
                 writer = csv.writer(fout,reader,delimiter='^')
 
                 writer.writerow(fed_headers)
@@ -379,13 +386,15 @@ def file_conversion(input_file, output_file_pattern, chunksize, act,cc,cn):
 
 
 
+                # chunk = ''.join([i for i in chunk]).replace("", "e")
                 writer.writerows(chunk)
+
+
                 print("Successfully converted into", output_file_pattern)
 
 # count total number of lines
 #
 #
-# def total_lines(input_file):
 #     with open(input_file) as f:
 #         return sum(1 for line in f)
 
