@@ -125,7 +125,7 @@ def mapping(df):
         df = df.rename(columns={'VENDPART': 'VENDPART', 'PRODUCT NAME/DESCRIPTION': 'PRODNAME', 'PSC_CODE': 'PSC_CODE',
                            'Price': 'GSAPRICE', 'UOM': 'ISSCODE',
                            'QTY_UNIT': 'QTY_UNIT',
-                           'Manufacturer Part #': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER NAME': 'MFGNAME',
+                           'Manufacturer Part#': 'MFGPART', 'OEM_CAGE': 'OEM_CAGE', 'MANUFACTURER NAME': 'MFGNAME',
                            'PRODDESC': 'PRODDESC',
                            'Lead Time Days': 'P_DELIV', 'LONG_DESCRIPTION':'LONG_DESCRIPTION','UPC': 'UPC', 'HAZMAT': 'HAZMAT', 'TPRSTART': 'TPRSTART',
                            'TPRSTOP': 'TPRSTOP',
